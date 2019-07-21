@@ -53,11 +53,9 @@ def pad(batch):
     lenList = [len(element) for element in f(0)]
     maxLen = max(lenList)
     
-    #tag用0填充、word用25000填空（0不能用）
-    f1 = lambda x, maxLen:[element[x] + [25000] * (maxLen - len(element[x])) for element in batch]
-    f2 = lambda x, maxLen:[element[x] + [0] * (maxLen - len(element[x])) for element in batch]
+    f = lambda x, maxLen:[element[x] + [0] * (maxLen - len(element[x])) for element in batch]
 
-    return torch.LongTensor(f1(0, maxLen)), torch.LongTensor(f2(1, maxLen)), lenList
+    return torch.LongTensor(f(0, maxLen)), torch.LongTensor(f(1, maxLen)), lenList
 
 
 

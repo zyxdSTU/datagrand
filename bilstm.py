@@ -10,7 +10,7 @@ class BiLSTM(nn.Module):
         self.embeddingSize = config['model']['embeddingSize']
         self.hiddenSize = config['model']['hiddenSize']
 
-        self.wordEmbeddings = nn.Embedding(self.wordDictSize + 1, self.embeddingSize)
+        self.wordEmbeddings = nn.Embedding(self.wordDictSize, self.embeddingSize)
 
         self.lstm = nn.LSTM(input_size=self.embeddingSize, hidden_size= self.hiddenSize // 2, batch_first=True, bidirectional=True)
         self.fc = nn.Linear(self.hiddenSize, len(tagDict))
