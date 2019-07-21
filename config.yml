@@ -1,4 +1,14 @@
 data:
-  trainPath: './datagrand/train.bioes'
-  testPath: './datagrand/test.bioes'
-  wordLength: 21225
+  trainDataPath: './datagrand/train.bioes'
+  testDataPath: './datagrand/test.bioes'
+  validDataPath: './datagrand/valid.bioes'
+  wordDictSize: 25000
+model:
+  embeddingSize: 50
+  hiddenSize: 50
+  batchSize: 50
+  epochNum: 500
+  earlyStop: 50
+  learningRate: 0.0001
+  modelSavePath: './datagrand/model.pkl'
+
