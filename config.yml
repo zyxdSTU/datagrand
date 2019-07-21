@@ -6,9 +6,9 @@ data:
 model:
   embeddingSize: 100
   hiddenSize: 100
-  batchSize: 50
+  batchSize: 30
   epochNum: 500
-  earlyStop: 50
-  learningRate: 0.001
+  earlyStop: 20
+  learningRate: 0.01
   modelSavePath: './datagrand/model.pkl'
 

@@ -57,7 +57,7 @@ def main(config):
     net = net.to(DEVICE)
 
     lossFunction = nn.NLLLoss()
-    optimizer = optim.SGD(net.parameters(), lr=learningRate)
+    optimizer = optim.Adam(net.parameters(), lr=learningRate,betas=(0.9, 0.999), eps=1e-08)
 
     earlyNumber, beforeLoss, maxScore = 0, sys.maxsize, -1
     for epoch in range(epochNum):
@@ -134,7 +134,7 @@ def eval(net, iterData, criterion, DEVICE):
 
     
 if __name__ == "__main__":
-    f = open('./Config.yml', encoding='utf-8', errors='ignore')
+    f = open('./config.yml', encoding='utf-8', errors='ignore')
     config = yaml.load(f)
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     config['DEVICE'] = DEVICE
