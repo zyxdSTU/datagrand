@@ -1,0 +1,4 @@
+data:
+  trainPath: './datagrand/train.bioes'
+  testPath: './datagrand/test.bioes'
+  wordLength: 21225
