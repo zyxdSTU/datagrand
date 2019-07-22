@@ -4,11 +4,11 @@ data:
   validDataPath: './datagrand/valid.bioes'
   wordDictSize: 25000
 model:
-  embeddingSize: 100
+  embeddingSize: 200
   hiddenSize: 100
-  batchSize: 30
+  batchSize: 50
   epochNum: 500
   earlyStop: 20
-  learningRate: 0.01
+  learningRate: 0.005
   modelSavePath: './datagrand/model.pkl'
 

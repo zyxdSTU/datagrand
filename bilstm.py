@@ -12,7 +12,7 @@ class BiLSTM(nn.Module):
 
         self.wordEmbeddings = nn.Embedding(self.wordDictSize, self.embeddingSize)
 
-        self.lstm = nn.LSTM(input_size=self.embeddingSize, hidden_size= self.hiddenSize // 2, batch_first=True, bidirectional=True, num_layers=3)
+        self.lstm = nn.LSTM(input_size=self.embeddingSize, hidden_size= self.hiddenSize // 2, batch_first=True, bidirectional=True, num_layers=4)
         self.fc = nn.Linear(self.hiddenSize, len(tagDict))
     
     def forward(self, batchSentence):
