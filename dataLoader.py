@@ -23,7 +23,10 @@ class NERDataset(data.Dataset):
                 sentence, tag = [], []
             else:
                 line = line.strip()
-                if len(line.split()) < 2: continue
+                if len(line.split('\t')) < 1: continue
+                #针对submit
+                if len(line.split('\t')) == 1: 
+                    sentence.append(line); tag.append(int2tag[0]); continue
                 sentence.append(line.split()[0])
                 tag.append(line.split()[1])
         f.close()

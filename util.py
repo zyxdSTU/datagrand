@@ -1,3 +1,6 @@
+from seqeval.metrics import classification_report, f1_score
+import codecs
+
 #转换一下test语料
 def changeTest1(inputPath, outputPath):
     input = open(inputPath, 'r', encoding='utf-8', errors='ignore')
@@ -122,6 +125,7 @@ def prepareData(inputPath):
     f.close()
     return sentenceList, tagList
 
+
 #获得词表长度
 def acquireWordLength1(inputPathArr):
     maxNumber = 0
@@ -150,3 +154,46 @@ def acquireWordLength2(inputPathArr):
 
 #acquireWordLength1(['./datagrand/data.bioes'])
 #acquireWordLength2(['./datagrand/test.txt'])
+
+
+'''
+输入预测数据、真实数据，输出F1-值
+'''
+def compF1Score(preDataPath, relDataPath):
+    def getTags(dataPath):
+        tags = []
+        with codecs.open(dataPath, 'r', encoding='utf-8', errors='ignore') as f:
+            lines = f.read()
+            lineArr = lines.split('\n\n')
+            for line in lineArr:
+                if len(line.strip()) == 0: continue
+                tag = [element.split('\t')[1] for element in line.split('\n')]   
+                tags.append(tag)
+        return tags
+
+    tagsPre = getTags(preDataPath)
+    tagsRel = getTags(relDataPath)    
+    f1Score = f1_score(y_true=tagsRel, y_pred=tagsPre)
+    return f1Score
+
+'''
+生成submit代码
+submitPrePath 对submit文本预测的效果
+generatePath 符合提交格式的文本
+'''
+def generateSubmit(submitPrePath, submitResultPath):
+    submit = open(submitResultPath, 'w', encoding='utf-8', errors='ignore')
+    with codecs.open(submitPrePath, 'r', encoding='utf-8') as f:
+        lines = f.read()
+        lineArr = lines.split('\n\n')
+        for line in lineArr:
+            if len(line.strip()) == 0: continue
+            sentence = [element.split('\t')[0] for element in line.split('\n')]
+            tag = [element.split('\t')[1] for element in line.split('\n')]
+            sentence1, tag1 = acquireEntity(sentence, tag)
+            #没有识别出任何实体
+            if len(sentence1) == 0 and len(tag1) == 0:
+                submit.write('_'.join(sentence) + '/' + 'o' + '\n'); continue
+            arr = [element1 + '/' + element2 for element1, element2 in zip(sentence1, tag1)]
+            submit.write('  '.join(arr) + '\n')
+    f.close()

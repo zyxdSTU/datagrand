@@ -32,6 +32,8 @@ def changeBIO(inputPath, outputPath, label = 'BIOES'):
     input.close()
     output.close()
 
+#changeBIO('./datagrand/submit.txt', './datagrand/submit.bioes')
+
 '''
 切分为训练集、测试集、验证集
 '''
@@ -95,4 +97,14 @@ def cutData(originPath, trainPath, validPath, testPath, portion1 = 0.75, portion
 
     origin.close(); train.close()
 
-cutData('./datagrand/data.bioes', './datagrand/train.bioes', './datagrand/valid.bioes', './datagrand/test.bioes', portion1 = 0.75, portion2=0.1)
+#cutData('./datagrand/data.bioes', './datagrand/train.bioes', './datagrand/valid.bioes', './datagrand/test.bioes', portion1 = 0.85, portion2=0.1)
+
+
+# f1 = open('./datagrand/submit.txt', 'r', encoding='utf-8')
+# f2 = open('./datagrand/submit.change', 'w', encoding='utf-8')
+# for line in f1.readlines():
+#     line = line.strip()
+#     for element in line.split('_'):
+#         f2.write(element + '\n')
+#     f2.write('\n')
+# f1.close(); f2.close()
