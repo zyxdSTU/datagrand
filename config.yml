@@ -2,15 +2,19 @@ data:
   trainDataPath: './datagrand/train.bioes'
   validDataPath: './datagrand/test.bioes'
   submitDataPath: './datagrand/submit.change'
-  submitPrePath: './datagrand/submit_bilstm.result'
-  submitResultPath: './datagrand/submit_bilstm.txt'
   wordDictSize: 25000
 model:
   embeddingSize: 100
   hiddenSize: 100
-  batchSize: 50
-  epochNum: 50
+  batchSize: 100
+  epochNum: 2
   earlyStop: 10
   learningRate: 0.01
-  modelSavePath: './datagrand/model.pkl'
-
+  bilstm:
+    modelSavePath: './datagrand/bilstm/bilstm_model.pkl'
+    submitPrePath: './datagrand/bilstm/submit_bilstm.reslut'
+    submitResultPath: './datagrand/bilstm/submit_bilstm.txt'
+  bilstm_crf:
+    modelSavePath: './datagrand/bilstm/bilstm_crf_model.pkl'
+    submitPrePath: './datagrand/bilstm/submit_bilstm_crf.reslut'
+    submitResultPath: './datagrand/bilstm/submit_bilstm_crf.txt'
