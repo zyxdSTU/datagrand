@@ -69,14 +69,15 @@ def main(config):
         net = BiLSTM(config)
         train = bilstmTrain
         eval = bilstmEval
+        if torch.cuda.device_count() > 1:
+            net = nn.DataParallel(net)
     
     if modelName == 'bilstm_crf':
         net = BiLSTM_CRF(config)
         train = bilstmCRFTrain
         eval = bilstmCRFEval
 
-    # if torch.cuda.device_count() > 1:
-    #     net = nn.DataParallel(net)
+
 
     net = net.to(DEVICE)
 
@@ -106,18 +107,18 @@ def main(config):
         if earlyNumber >= earlyStop: break
         print ('\n')
     
-    #加载最优模型
-    net.load_state_dict(torch.load(modelSavePath))
-    totalLoss, f1Score, preTags, _, sentences = eval(net, submitIter, criterion=lossFunction, DEVICE=DEVICE)
+    # #加载最优模型
+    # net.load_state_dict(torch.load(modelSavePath))
+    # totalLoss, f1Score, preTags, _, sentences = eval(net, submitIter, criterion=lossFunction, DEVICE=DEVICE)
 
-    #生成提交结果
-    submitPre = open(submitPrePath, 'w', encoding='utf-8', errors='ignore')
-    for tag, sentence in zip(preTags, sentences):
-        for element1, element2 in zip(sentence, tag):
-            submitPre.write(str(element1) + '\t' + element2 + '\n')
-        submitPre.write('\n')
-    submitPre.close()
-    generateSubmit(submitPrePath=submitPrePath, submitResultPath=submitResultPath)
+    # #生成提交结果
+    # submitPre = open(submitPrePath, 'w', encoding='utf-8', errors='ignore')
+    # for tag, sentence in zip(preTags, sentences):
+    #     for element1, element2 in zip(sentence, tag):
+    #         submitPre.write(str(element1) + '\t' + element2 + '\n')
+    #     submitPre.write('\n')
+    # submitPre.close()
+    # generateSubmit(submitPrePath=submitPrePath, submitResultPath=submitResultPath)
 
 
 
@@ -130,7 +131,7 @@ if __name__ == "__main__":
     f = open('./config.yml', encoding='utf-8', errors='ignore')
     config = yaml.load(f)
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    config['DEVICE'] = DEVICE
+    config['DEVICE'] = "cpu"
     config['modelName'] = option.modelName
     f.close()
     main(config)

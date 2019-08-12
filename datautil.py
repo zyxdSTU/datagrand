@@ -97,7 +97,7 @@ def cutData(originPath, trainPath, validPath, testPath, portion1 = 0.75, portion
 
     origin.close(); train.close()
 
-#cutData('./datagrand/data.bioes', './datagrand/train.bioes', './datagrand/valid.bioes', './datagrand/test.bioes', portion1 = 0.85, portion2=0.1)
+cutData('./datagrand/data.bioes', './datagrand/bilstm_crf/train.bioes', './datagrand/bilstm_crf/test.bioes', './datagrand/bilstm_crf/valid.bioes', portion1 = 0.5, portion2=0.1)
 
 
 # f1 = open('./datagrand/submit.txt', 'r', encoding='utf-8')

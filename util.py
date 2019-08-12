@@ -197,3 +197,15 @@ def generateSubmit(submitPrePath, submitResultPath):
             arr = [element1 + '/' + element2 for element1, element2 in zip(sentence1, tag1)]
             submit.write('  '.join(arr) + '\n')
     f.close()
+
+#获取词典
+def acquireWordDict(inputPathArr):
+    wordDict = []
+    for inputPath in inputPathArr:
+        input = open(inputPath, 'r', encoding='utf-8', errors='ignore')
+        for line in input.readlines():
+            word = line.split('\t')[0]
+            if word not in wordDict:
+                wordDict.append(word)
+        input.close()
+    return wordDict

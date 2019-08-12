@@ -1,13 +1,13 @@
 data:
-  trainDataPath: './datagrand/train.bioes'
-  validDataPath: './datagrand/test.bioes'
+  trainDataPath: './datagrand/bilstm_crf/train.char.bioes'
+  validDataPath: './datagrand/bilstm_crf/test.char.bioes'
   submitDataPath: './datagrand/submit.change'
   wordDictSize: 25000
 model:
-  embeddingSize: 100
-  hiddenSize: 100
-  batchSize: 100
-  epochNum: 2
+  embeddingSize: 50
+  hiddenSize: 50
+  batchSize: 50
+  epochNum: 3
   earlyStop: 10
   learningRate: 0.01
   bilstm:

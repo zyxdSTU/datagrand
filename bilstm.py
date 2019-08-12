@@ -23,7 +23,6 @@ class BiLSTM(nn.Module):
     def forward(self, batchSentence):
         if self.training:
             #获得词嵌入
-            #print (batchSentence.shape)
             embeds = self.wordEmbeddings(batchSentence)
             lstmFeature,_ = self.lstm(embeds)
             tagFeature = self.fc(lstmFeature)
