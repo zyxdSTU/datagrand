@@ -1,20 +1,28 @@
 data:
-  trainDataPath: './datagrand/bilstm_crf/train.char.bioes'
-  validDataPath: './datagrand/bilstm_crf/test.char.bioes'
+  trainDataPath: './datagrand/bilstm_crf/train.bioes'
+  validDataPath: './datagrand/bilstm_crf/test.bioes'
   submitDataPath: './datagrand/submit.change'
   wordDictSize: 25000
 model:
   embeddingSize: 50
   hiddenSize: 50
   batchSize: 50
-  epochNum: 3
+  epochNum: 500
   earlyStop: 10
-  learningRate: 0.01
+  learningRate: 0.001
+  encoderNumber: 6 #encoder层数
+  feedforwardSize: 256 #前馈神经网络维度
+  headNumber: 4 #多头注意力机制的数量
+  dropout: 0.1 
   bilstm:
     modelSavePath: './datagrand/bilstm/bilstm_model.pkl'
     submitPrePath: './datagrand/bilstm/submit_bilstm.reslut'
     submitResultPath: './datagrand/bilstm/submit_bilstm.txt'
   bilstm_crf:
-    modelSavePath: './datagrand/bilstm/bilstm_crf_model.pkl'
-    submitPrePath: './datagrand/bilstm/submit_bilstm_crf.reslut'
-    submitResultPath: './datagrand/bilstm/submit_bilstm_crf.txt'
+    modelSavePath: './datagrand/bilstm_crf/bilstm_crf_model.pkl'
+    submitPrePath: './datagrand/bilstm_crf/submit_bilstm_crf.reslut'
+    submitResultPath: './datagrand/bilstm_crf/submit_bilstm_crf.txt'
+  transformer:
+    modelSavePath: './datagrand/transformer/transformer_model.pkl'
+    submitPrePath: './datagrand/transformer/submit_transformer.reslut'
+    submitResultPath: './datagrand/transformer/submit_transformer.txt'

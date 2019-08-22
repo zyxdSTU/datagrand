@@ -6,6 +6,7 @@ from dataLoader import pad
 from dataLoader import tagDict
 from dataLoader import int2tag
 from dataLoader import tag2int
+from dataLoader import int2word
 
 from torch.utils import data
 import torch.nn as nn
@@ -18,6 +19,9 @@ from bilstm import bilstmTrain
 from bilstm_crf import BiLSTM_CRF
 from bilstm_crf import bilstmCRFEval
 from bilstm_crf import bilstmCRFTrain
+from transformer import Transformer
+from transformer import transformerTrain
+from transformer import transformerEval
 
 import sys
 from seqeval.metrics import f1_score, accuracy_score, classification_report
@@ -76,8 +80,11 @@ def main(config):
         net = BiLSTM_CRF(config)
         train = bilstmCRFTrain
         eval = bilstmCRFEval
-
-
+    
+    if modelName == 'transformer':
+        net = Transformer(config)
+        train = transformerTrain
+        eval = transformerEval
 
     net = net.to(DEVICE)
 
@@ -106,19 +113,20 @@ def main(config):
             earlyNumber = 0
         if earlyNumber >= earlyStop: break
         print ('\n')
-    
-    # #加载最优模型
-    # net.load_state_dict(torch.load(modelSavePath))
-    # totalLoss, f1Score, preTags, _, sentences = eval(net, submitIter, criterion=lossFunction, DEVICE=DEVICE)
 
-    # #生成提交结果
-    # submitPre = open(submitPrePath, 'w', encoding='utf-8', errors='ignore')
-    # for tag, sentence in zip(preTags, sentences):
-    #     for element1, element2 in zip(sentence, tag):
-    #         submitPre.write(str(element1) + '\t' + element2 + '\n')
-    #     submitPre.write('\n')
-    # submitPre.close()
-    # generateSubmit(submitPrePath=submitPrePath, submitResultPath=submitResultPath)
+
+    #加载最优模型
+    net.load_state_dict(torch.load(modelSavePath))
+    totalLoss, f1Score, preTags, _, sentences = eval(net, submitIter, criterion=lossFunction, DEVICE=DEVICE)
+
+    #生成提交结果
+    submitPre = open(submitPrePath, 'w', encoding='utf-8', errors='ignore')
+    for tag, sentence in zip(preTags, sentences):
+        for element1, element2 in zip(sentence, tag):
+            submitPre.write(int2word(element1) + '\t' + element2 + '\n')
+        submitPre.write('\n')
+    submitPre.close()
+    generateSubmit(submitPrePath=submitPrePath, submitResultPath=submitResultPath)
 
 
 
@@ -131,7 +139,7 @@ if __name__ == "__main__":
     f = open('./config.yml', encoding='utf-8', errors='ignore')
     config = yaml.load(f)
     DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    config['DEVICE'] = "cpu"
+    config['DEVICE'] = DEVICE
     config['modelName'] = option.modelName
     f.close()
     main(config)
