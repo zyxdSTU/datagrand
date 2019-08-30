@@ -1,0 +1,1887 @@
+08/28/2019 22:40:03 - INFO - __main__ -   device: cuda n_gpu: 2, distributed training: False, 16-bits training: True
+08/28/2019 22:48:42 - INFO - __main__ -   ===================== -epoch 0 -train_step 100 -train_loss 10.0244
+
+08/28/2019 22:50:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 200 -train_loss 9.8462
+
+08/28/2019 22:52:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 300 -train_loss 9.6704
+
+08/28/2019 22:54:49 - INFO - __main__ -   ===================== -epoch 0 -train_step 400 -train_loss 9.5142
+
+08/28/2019 22:56:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 500 -train_loss 9.3678
+
+08/28/2019 22:58:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 600 -train_loss 9.2260
+
+08/28/2019 23:00:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 700 -train_loss 9.0934
+
+08/28/2019 23:02:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 800 -train_loss 8.9634
+
+08/28/2019 23:05:00 - INFO - __main__ -   ===================== -epoch 0 -train_step 900 -train_loss 8.8364
+
+08/28/2019 23:07:03 - INFO - __main__ -   ===================== -epoch 0 -train_step 1000 -train_loss 8.7158
+
+08/28/2019 23:09:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 1100 -train_loss 8.5993
+
+08/28/2019 23:11:07 - INFO - __main__ -   ===================== -epoch 0 -train_step 1200 -train_loss 8.4892
+
+08/28/2019 23:13:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 1300 -train_loss 8.3866
+
+08/28/2019 23:15:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 1400 -train_loss 8.2899
+
+08/28/2019 23:17:14 - INFO - __main__ -   ===================== -epoch 0 -train_step 1500 -train_loss 8.1994
+
+08/28/2019 23:19:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 1600 -train_loss 8.1159
+
+08/28/2019 23:21:18 - INFO - __main__ -   ===================== -epoch 0 -train_step 1700 -train_loss 8.0391
+
+08/28/2019 23:23:21 - INFO - __main__ -   ===================== -epoch 0 -train_step 1800 -train_loss 7.9670
+
+08/28/2019 23:25:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 1900 -train_loss 7.9000
+
+08/28/2019 23:27:25 - INFO - __main__ -   ===================== -epoch 0 -train_step 2000 -train_loss 7.8386
+
+08/28/2019 23:29:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 2100 -train_loss 7.7807
+
+08/28/2019 23:31:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 2200 -train_loss 7.7269
+
+08/28/2019 23:33:32 - INFO - __main__ -   ===================== -epoch 0 -train_step 2300 -train_loss 7.6757
+
+08/28/2019 23:35:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 2400 -train_loss 7.6279
+
+08/28/2019 23:37:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 2500 -train_loss 7.5820
+
+08/28/2019 23:39:39 - INFO - __main__ -   ===================== -epoch 0 -train_step 2600 -train_loss 7.5385
+
+08/28/2019 23:41:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 2700 -train_loss 7.4964
+
+08/28/2019 23:43:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 2800 -train_loss 7.4561
+
+08/28/2019 23:45:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 2900 -train_loss 7.4180
+
+08/28/2019 23:47:48 - INFO - __main__ -   ===================== -epoch 0 -train_step 3000 -train_loss 7.3814
+
+08/28/2019 23:49:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 3100 -train_loss 7.3466
+
+08/28/2019 23:51:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 3200 -train_loss 7.3138
+
+08/28/2019 23:53:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 3300 -train_loss 7.2810
+
+08/28/2019 23:55:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 3400 -train_loss 7.2504
+
+08/28/2019 23:57:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 3500 -train_loss 7.2206
+
+08/29/2019 00:00:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 3600 -train_loss 7.1919
+
+08/29/2019 00:02:03 - INFO - __main__ -   ===================== -epoch 0 -train_step 3700 -train_loss 7.1639
+
+08/29/2019 00:04:06 - INFO - __main__ -   ===================== -epoch 0 -train_step 3800 -train_loss 7.1366
+
+08/29/2019 00:06:08 - INFO - __main__ -   ===================== -epoch 0 -train_step 3900 -train_loss 7.1108
+
+08/29/2019 00:08:10 - INFO - __main__ -   ===================== -epoch 0 -train_step 4000 -train_loss 7.0853
+
+08/29/2019 00:10:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 4100 -train_loss 7.0613
+
+08/29/2019 00:12:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 4200 -train_loss 7.0373
+
+08/29/2019 00:14:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 4300 -train_loss 7.0141
+
+08/29/2019 00:16:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 4400 -train_loss 6.9917
+
+08/29/2019 00:18:21 - INFO - __main__ -   ===================== -epoch 0 -train_step 4500 -train_loss 6.9695
+
+08/29/2019 00:20:24 - INFO - __main__ -   ===================== -epoch 0 -train_step 4600 -train_loss 6.9482
+
+08/29/2019 00:22:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 4700 -train_loss 6.9277
+
+08/29/2019 00:24:28 - INFO - __main__ -   ===================== -epoch 0 -train_step 4800 -train_loss 6.9081
+
+08/29/2019 00:26:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 4900 -train_loss 6.8888
+
+08/29/2019 00:28:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 5000 -train_loss 6.8701
+
+08/29/2019 00:47:09 - INFO - __main__ -   ============================ -epoch 0 -train_loss 6.8701 -eval_loss 5.9025
+
+08/29/2019 00:49:11 - INFO - __main__ -   ===================== -epoch 0 -train_step 5100 -train_loss 6.8511
+
+08/29/2019 00:51:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 5200 -train_loss 6.8328
+
+08/29/2019 00:53:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 5300 -train_loss 6.8146
+
+08/29/2019 00:55:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 5400 -train_loss 6.7967
+
+08/29/2019 00:57:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 5500 -train_loss 6.7800
+
+08/29/2019 00:59:18 - INFO - __main__ -   ===================== -epoch 0 -train_step 5600 -train_loss 6.7628
+
+08/29/2019 01:01:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 5700 -train_loss 6.7464
+
+08/29/2019 01:03:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 5800 -train_loss 6.7304
+
+08/29/2019 01:05:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 5900 -train_loss 6.7147
+
+08/29/2019 01:07:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 6000 -train_loss 6.6995
+
+08/29/2019 01:09:25 - INFO - __main__ -   ===================== -epoch 0 -train_step 6100 -train_loss 6.6846
+
+08/29/2019 01:11:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 6200 -train_loss 6.6700
+
+08/29/2019 01:13:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 6300 -train_loss 6.6555
+
+08/29/2019 01:15:29 - INFO - __main__ -   ===================== -epoch 0 -train_step 6400 -train_loss 6.6414
+
+08/29/2019 01:17:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 6500 -train_loss 6.6278
+
+08/29/2019 01:19:32 - INFO - __main__ -   ===================== -epoch 0 -train_step 6600 -train_loss 6.6142
+
+08/29/2019 01:21:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 6700 -train_loss 6.6006
+
+08/29/2019 01:23:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 6800 -train_loss 6.5875
+
+08/29/2019 01:25:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 6900 -train_loss 6.5748
+
+08/29/2019 01:27:37 - INFO - __main__ -   ===================== -epoch 0 -train_step 7000 -train_loss 6.5627
+
+08/29/2019 01:29:39 - INFO - __main__ -   ===================== -epoch 0 -train_step 7100 -train_loss 6.5502
+
+08/29/2019 01:31:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 7200 -train_loss 6.5382
+
+08/29/2019 01:33:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 7300 -train_loss 6.5262
+
+08/29/2019 01:35:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 7400 -train_loss 6.5148
+
+08/29/2019 01:37:44 - INFO - __main__ -   ===================== -epoch 0 -train_step 7500 -train_loss 6.5033
+
+08/29/2019 01:39:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 7600 -train_loss 6.4915
+
+08/29/2019 01:41:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 7700 -train_loss 6.4799
+
+08/29/2019 01:43:48 - INFO - __main__ -   ===================== -epoch 0 -train_step 7800 -train_loss 6.4688
+
+08/29/2019 01:45:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 7900 -train_loss 6.4582
+
+08/29/2019 01:47:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 8000 -train_loss 6.4472
+
+08/29/2019 01:49:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 8100 -train_loss 6.4367
+
+08/29/2019 01:51:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 8200 -train_loss 6.4268
+
+08/29/2019 01:53:55 - INFO - __main__ -   ===================== -epoch 0 -train_step 8300 -train_loss 6.4165
+
+08/29/2019 01:55:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 8400 -train_loss 6.4064
+
+08/29/2019 01:57:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 8500 -train_loss 6.3958
+
+08/29/2019 01:59:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 8600 -train_loss 6.3855
+
+08/29/2019 02:02:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 8700 -train_loss 6.3755
+
+08/29/2019 02:04:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 8800 -train_loss 6.3657
+
+08/29/2019 02:06:03 - INFO - __main__ -   ===================== -epoch 0 -train_step 8900 -train_loss 6.3558
+
+08/29/2019 02:08:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 9000 -train_loss 6.3459
+
+08/29/2019 02:10:06 - INFO - __main__ -   ===================== -epoch 0 -train_step 9100 -train_loss 6.3361
+
+08/29/2019 02:12:07 - INFO - __main__ -   ===================== -epoch 0 -train_step 9200 -train_loss 6.3262
+
+08/29/2019 02:14:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 9300 -train_loss 6.3170
+
+08/29/2019 02:16:10 - INFO - __main__ -   ===================== -epoch 0 -train_step 9400 -train_loss 6.3074
+
+08/29/2019 02:18:11 - INFO - __main__ -   ===================== -epoch 0 -train_step 9500 -train_loss 6.2980
+
+08/29/2019 02:20:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 9600 -train_loss 6.2883
+
+08/29/2019 02:22:14 - INFO - __main__ -   ===================== -epoch 0 -train_step 9700 -train_loss 6.2787
+
+08/29/2019 02:24:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 9800 -train_loss 6.2694
+
+08/29/2019 02:26:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 9900 -train_loss 6.2597
+
+08/29/2019 02:28:18 - INFO - __main__ -   ===================== -epoch 0 -train_step 10000 -train_loss 6.2501
+
+08/29/2019 02:46:49 - INFO - __main__ -   ============================ -epoch 0 -train_loss 6.2501 -eval_loss 5.2955
+
+08/29/2019 02:48:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 10100 -train_loss 6.2404
+
+08/29/2019 02:50:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 10200 -train_loss 6.2308
+
+08/29/2019 02:52:53 - INFO - __main__ -   ===================== -epoch 0 -train_step 10300 -train_loss 6.2209
+
+08/29/2019 02:54:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 10400 -train_loss 6.2112
+
+08/29/2019 02:56:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 10500 -train_loss 6.2013
+
+08/29/2019 02:58:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 10600 -train_loss 6.1914
+
+08/29/2019 03:00:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 10700 -train_loss 6.1815
+
+08/29/2019 03:03:00 - INFO - __main__ -   ===================== -epoch 0 -train_step 10800 -train_loss 6.1715
+
+08/29/2019 03:05:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 10900 -train_loss 6.1613
+
+08/29/2019 03:07:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 11000 -train_loss 6.1515
+
+08/29/2019 03:09:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 11100 -train_loss 6.1411
+
+08/29/2019 03:11:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 11200 -train_loss 6.1311
+
+08/29/2019 03:13:07 - INFO - __main__ -   ===================== -epoch 0 -train_step 11300 -train_loss 6.1207
+
+08/29/2019 03:15:08 - INFO - __main__ -   ===================== -epoch 0 -train_step 11400 -train_loss 6.1104
+
+08/29/2019 03:17:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 11500 -train_loss 6.0999
+
+08/29/2019 03:19:11 - INFO - __main__ -   ===================== -epoch 0 -train_step 11600 -train_loss 6.0894
+
+08/29/2019 03:21:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 11700 -train_loss 6.0790
+
+08/29/2019 03:23:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 11800 -train_loss 6.0681
+
+08/29/2019 03:25:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 11900 -train_loss 6.0574
+
+08/29/2019 03:27:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 12000 -train_loss 6.0464
+
+08/29/2019 03:29:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 12100 -train_loss 6.0357
+
+08/29/2019 03:31:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 12200 -train_loss 6.0246
+
+08/29/2019 03:33:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 12300 -train_loss 6.0136
+
+08/29/2019 03:35:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 12400 -train_loss 6.0021
+
+08/29/2019 03:37:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 12500 -train_loss 5.9905
+
+08/29/2019 03:39:24 - INFO - __main__ -   ===================== -epoch 0 -train_step 12600 -train_loss 5.9792
+
+08/29/2019 03:41:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 12700 -train_loss 5.9676
+
+08/29/2019 03:43:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 12800 -train_loss 5.9560
+
+08/29/2019 03:45:28 - INFO - __main__ -   ===================== -epoch 0 -train_step 12900 -train_loss 5.9445
+
+08/29/2019 03:47:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 13000 -train_loss 5.9331
+
+08/29/2019 03:49:31 - INFO - __main__ -   ===================== -epoch 0 -train_step 13100 -train_loss 5.9214
+
+08/29/2019 03:51:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 13200 -train_loss 5.9094
+
+08/29/2019 03:53:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 13300 -train_loss 5.8978
+
+08/29/2019 03:55:35 - INFO - __main__ -   ===================== -epoch 0 -train_step 13400 -train_loss 5.8862
+
+08/29/2019 03:57:37 - INFO - __main__ -   ===================== -epoch 0 -train_step 13500 -train_loss 5.8739
+
+08/29/2019 03:59:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 13600 -train_loss 5.8617
+
+08/29/2019 04:01:39 - INFO - __main__ -   ===================== -epoch 0 -train_step 13700 -train_loss 5.8498
+
+08/29/2019 04:03:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 13800 -train_loss 5.8379
+
+08/29/2019 04:05:42 - INFO - __main__ -   ===================== -epoch 0 -train_step 13900 -train_loss 5.8258
+
+08/29/2019 04:07:44 - INFO - __main__ -   ===================== -epoch 0 -train_step 14000 -train_loss 5.8137
+
+08/29/2019 04:09:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 14100 -train_loss 5.8014
+
+08/29/2019 04:11:46 - INFO - __main__ -   ===================== -epoch 0 -train_step 14200 -train_loss 5.7890
+
+08/29/2019 04:13:48 - INFO - __main__ -   ===================== -epoch 0 -train_step 14300 -train_loss 5.7764
+
+08/29/2019 04:15:49 - INFO - __main__ -   ===================== -epoch 0 -train_step 14400 -train_loss 5.7641
+
+08/29/2019 04:17:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 14500 -train_loss 5.7517
+
+08/29/2019 04:19:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 14600 -train_loss 5.7393
+
+08/29/2019 04:21:53 - INFO - __main__ -   ===================== -epoch 0 -train_step 14700 -train_loss 5.7267
+
+08/29/2019 04:23:55 - INFO - __main__ -   ===================== -epoch 0 -train_step 14800 -train_loss 5.7144
+
+08/29/2019 04:25:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 14900 -train_loss 5.7021
+
+08/29/2019 04:27:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 15000 -train_loss 5.6897
+
+08/29/2019 04:46:34 - INFO - __main__ -   ============================ -epoch 0 -train_loss 5.6897 -eval_loss 3.8360
+
+08/29/2019 04:48:35 - INFO - __main__ -   ===================== -epoch 0 -train_step 15100 -train_loss 5.6772
+
+08/29/2019 04:50:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 15200 -train_loss 5.6646
+
+08/29/2019 04:52:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 15300 -train_loss 5.6523
+
+08/29/2019 04:54:39 - INFO - __main__ -   ===================== -epoch 0 -train_step 15400 -train_loss 5.6399
+
+08/29/2019 04:56:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 15500 -train_loss 5.6277
+
+08/29/2019 04:58:42 - INFO - __main__ -   ===================== -epoch 0 -train_step 15600 -train_loss 5.6153
+
+08/29/2019 05:00:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 15700 -train_loss 5.6030
+
+08/29/2019 05:02:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 15800 -train_loss 5.5906
+
+08/29/2019 05:04:46 - INFO - __main__ -   ===================== -epoch 0 -train_step 15900 -train_loss 5.5782
+
+08/29/2019 05:06:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 16000 -train_loss 5.5656
+
+08/29/2019 05:08:49 - INFO - __main__ -   ===================== -epoch 0 -train_step 16100 -train_loss 5.5533
+
+08/29/2019 05:10:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 16200 -train_loss 5.5410
+
+08/29/2019 05:12:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 16300 -train_loss 5.5289
+
+08/29/2019 05:14:53 - INFO - __main__ -   ===================== -epoch 0 -train_step 16400 -train_loss 5.5168
+
+08/29/2019 05:16:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 16500 -train_loss 5.5047
+
+08/29/2019 05:18:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 16600 -train_loss 5.4928
+
+08/29/2019 05:20:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 16700 -train_loss 5.4807
+
+08/29/2019 05:22:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 16800 -train_loss 5.4690
+
+08/29/2019 05:25:00 - INFO - __main__ -   ===================== -epoch 0 -train_step 16900 -train_loss 5.4571
+
+08/29/2019 05:27:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 17000 -train_loss 5.4452
+
+08/29/2019 05:29:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 17100 -train_loss 5.4333
+
+08/29/2019 05:31:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 17200 -train_loss 5.4216
+
+08/29/2019 05:33:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 17300 -train_loss 5.4099
+
+08/29/2019 05:35:07 - INFO - __main__ -   ===================== -epoch 0 -train_step 17400 -train_loss 5.3983
+
+08/29/2019 05:37:08 - INFO - __main__ -   ===================== -epoch 0 -train_step 17500 -train_loss 5.3869
+
+08/29/2019 05:39:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 17600 -train_loss 5.3751
+
+08/29/2019 05:41:11 - INFO - __main__ -   ===================== -epoch 0 -train_step 17700 -train_loss 5.3635
+
+08/29/2019 05:43:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 17800 -train_loss 5.3520
+
+08/29/2019 05:45:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 17900 -train_loss 5.3407
+
+08/29/2019 05:47:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 18000 -train_loss 5.3293
+
+08/29/2019 05:49:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 18100 -train_loss 5.3180
+
+08/29/2019 05:51:18 - INFO - __main__ -   ===================== -epoch 0 -train_step 18200 -train_loss 5.3070
+
+08/29/2019 05:53:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 18300 -train_loss 5.2957
+
+08/29/2019 05:55:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 18400 -train_loss 5.2847
+
+08/29/2019 05:57:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 18500 -train_loss 5.2739
+
+08/29/2019 05:59:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 18600 -train_loss 5.2631
+
+08/29/2019 06:01:24 - INFO - __main__ -   ===================== -epoch 0 -train_step 18700 -train_loss 5.2523
+
+08/29/2019 06:03:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 18800 -train_loss 5.2416
+
+08/29/2019 06:05:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 18900 -train_loss 5.2308
+
+08/29/2019 06:07:29 - INFO - __main__ -   ===================== -epoch 0 -train_step 19000 -train_loss 5.2200
+
+08/29/2019 06:09:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 19100 -train_loss 5.2093
+
+08/29/2019 06:11:31 - INFO - __main__ -   ===================== -epoch 0 -train_step 19200 -train_loss 5.1987
+
+08/29/2019 06:13:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 19300 -train_loss 5.1881
+
+08/29/2019 06:15:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 19400 -train_loss 5.1775
+
+08/29/2019 06:17:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 19500 -train_loss 5.1672
+
+08/29/2019 06:19:37 - INFO - __main__ -   ===================== -epoch 0 -train_step 19600 -train_loss 5.1570
+
+08/29/2019 06:21:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 19700 -train_loss 5.1468
+
+08/29/2019 06:23:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 19800 -train_loss 5.1367
+
+08/29/2019 06:25:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 19900 -train_loss 5.1267
+
+08/29/2019 06:27:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 20000 -train_loss 5.1166
+
+08/29/2019 06:46:13 - INFO - __main__ -   ============================ -epoch 0 -train_loss 5.1166 -eval_loss 3.0915
+
+08/29/2019 06:48:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 20100 -train_loss 5.1064
+
+08/29/2019 06:50:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 20200 -train_loss 5.0962
+
+08/29/2019 06:52:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 20300 -train_loss 5.0864
+
+08/29/2019 06:54:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 20400 -train_loss 5.0765
+
+08/29/2019 06:56:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 20500 -train_loss 5.0666
+
+08/29/2019 06:58:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 20600 -train_loss 5.0569
+
+08/29/2019 07:00:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 20700 -train_loss 5.0469
+
+08/29/2019 07:02:24 - INFO - __main__ -   ===================== -epoch 0 -train_step 20800 -train_loss 5.0372
+
+08/29/2019 07:04:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 20900 -train_loss 5.0275
+
+08/29/2019 07:06:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 21000 -train_loss 5.0178
+
+08/29/2019 07:08:28 - INFO - __main__ -   ===================== -epoch 0 -train_step 21100 -train_loss 5.0083
+
+08/29/2019 07:10:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 21200 -train_loss 4.9989
+
+08/29/2019 07:12:31 - INFO - __main__ -   ===================== -epoch 0 -train_step 21300 -train_loss 4.9895
+
+08/29/2019 07:14:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 21400 -train_loss 4.9801
+
+08/29/2019 07:16:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 21500 -train_loss 4.9707
+
+08/29/2019 07:18:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 21600 -train_loss 4.9613
+
+08/29/2019 07:20:37 - INFO - __main__ -   ===================== -epoch 0 -train_step 21700 -train_loss 4.9523
+
+08/29/2019 07:22:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 21800 -train_loss 4.9431
+
+08/29/2019 07:24:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 21900 -train_loss 4.9340
+
+08/29/2019 07:26:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 22000 -train_loss 4.9250
+
+08/29/2019 07:28:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 22100 -train_loss 4.9160
+
+08/29/2019 07:30:44 - INFO - __main__ -   ===================== -epoch 0 -train_step 22200 -train_loss 4.9070
+
+08/29/2019 07:32:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 22300 -train_loss 4.8982
+
+08/29/2019 07:34:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 22400 -train_loss 4.8895
+
+08/29/2019 07:36:48 - INFO - __main__ -   ===================== -epoch 0 -train_step 22500 -train_loss 4.8807
+
+08/29/2019 07:38:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 22600 -train_loss 4.8719
+
+08/29/2019 07:40:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 22700 -train_loss 4.8630
+
+08/29/2019 07:42:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 22800 -train_loss 4.8542
+
+08/29/2019 07:44:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 22900 -train_loss 4.8455
+
+08/29/2019 07:46:55 - INFO - __main__ -   ===================== -epoch 0 -train_step 23000 -train_loss 4.8369
+
+08/29/2019 07:48:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 23100 -train_loss 4.8286
+
+08/29/2019 07:50:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 23200 -train_loss 4.8202
+
+08/29/2019 07:52:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 23300 -train_loss 4.8118
+
+08/29/2019 07:55:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 23400 -train_loss 4.8035
+
+08/29/2019 07:57:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 23500 -train_loss 4.7952
+
+08/29/2019 07:59:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 23600 -train_loss 4.7870
+
+08/29/2019 08:01:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 23700 -train_loss 4.7788
+
+08/29/2019 08:03:07 - INFO - __main__ -   ===================== -epoch 0 -train_step 23800 -train_loss 4.7706
+
+08/29/2019 08:05:08 - INFO - __main__ -   ===================== -epoch 0 -train_step 23900 -train_loss 4.7625
+
+08/29/2019 08:07:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 24000 -train_loss 4.7544
+
+08/29/2019 08:09:11 - INFO - __main__ -   ===================== -epoch 0 -train_step 24100 -train_loss 4.7463
+
+08/29/2019 08:11:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 24200 -train_loss 4.7383
+
+08/29/2019 08:13:14 - INFO - __main__ -   ===================== -epoch 0 -train_step 24300 -train_loss 4.7301
+
+08/29/2019 08:15:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 24400 -train_loss 4.7223
+
+08/29/2019 08:17:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 24500 -train_loss 4.7144
+
+08/29/2019 08:19:18 - INFO - __main__ -   ===================== -epoch 0 -train_step 24600 -train_loss 4.7067
+
+08/29/2019 08:21:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 24700 -train_loss 4.6989
+
+08/29/2019 08:23:21 - INFO - __main__ -   ===================== -epoch 0 -train_step 24800 -train_loss 4.6910
+
+08/29/2019 08:25:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 24900 -train_loss 4.6832
+
+08/29/2019 08:27:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 25000 -train_loss 4.6755
+
+08/29/2019 08:45:55 - INFO - __main__ -   ============================ -epoch 0 -train_loss 4.6755 -eval_loss 2.7599
+
+08/29/2019 08:47:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 25100 -train_loss 4.6679
+
+08/29/2019 08:49:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 25200 -train_loss 4.6605
+
+08/29/2019 08:51:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 25300 -train_loss 4.6528
+
+08/29/2019 08:54:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 25400 -train_loss 4.6453
+
+08/29/2019 08:56:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 25500 -train_loss 4.6380
+
+08/29/2019 08:58:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 25600 -train_loss 4.6305
+
+08/29/2019 09:00:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 25700 -train_loss 4.6231
+
+08/29/2019 09:02:06 - INFO - __main__ -   ===================== -epoch 0 -train_step 25800 -train_loss 4.6159
+
+08/29/2019 09:04:08 - INFO - __main__ -   ===================== -epoch 0 -train_step 25900 -train_loss 4.6085
+
+08/29/2019 09:06:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 26000 -train_loss 4.6013
+
+08/29/2019 09:08:10 - INFO - __main__ -   ===================== -epoch 0 -train_step 26100 -train_loss 4.5939
+
+08/29/2019 09:10:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 26200 -train_loss 4.5867
+
+08/29/2019 09:12:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 26300 -train_loss 4.5795
+
+08/29/2019 09:14:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 26400 -train_loss 4.5723
+
+08/29/2019 09:16:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 26500 -train_loss 4.5653
+
+08/29/2019 09:18:18 - INFO - __main__ -   ===================== -epoch 0 -train_step 26600 -train_loss 4.5583
+
+08/29/2019 09:20:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 26700 -train_loss 4.5512
+
+08/29/2019 09:22:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 26800 -train_loss 4.5443
+
+08/29/2019 09:24:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 26900 -train_loss 4.5373
+
+08/29/2019 09:26:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 27000 -train_loss 4.5303
+
+08/29/2019 09:28:25 - INFO - __main__ -   ===================== -epoch 0 -train_step 27100 -train_loss 4.5236
+
+08/29/2019 09:30:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 27200 -train_loss 4.5168
+
+08/29/2019 09:32:28 - INFO - __main__ -   ===================== -epoch 0 -train_step 27300 -train_loss 4.5100
+
+08/29/2019 09:34:29 - INFO - __main__ -   ===================== -epoch 0 -train_step 27400 -train_loss 4.5032
+
+08/29/2019 09:36:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 27500 -train_loss 4.4966
+
+08/29/2019 09:38:32 - INFO - __main__ -   ===================== -epoch 0 -train_step 27600 -train_loss 4.4899
+
+08/29/2019 09:40:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 27700 -train_loss 4.4834
+
+08/29/2019 09:42:35 - INFO - __main__ -   ===================== -epoch 0 -train_step 27800 -train_loss 4.4769
+
+08/29/2019 09:44:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 27900 -train_loss 4.4703
+
+08/29/2019 09:46:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 28000 -train_loss 4.4636
+
+08/29/2019 09:48:39 - INFO - __main__ -   ===================== -epoch 0 -train_step 28100 -train_loss 4.4571
+
+08/29/2019 09:50:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 28200 -train_loss 4.4506
+
+08/29/2019 09:52:42 - INFO - __main__ -   ===================== -epoch 0 -train_step 28300 -train_loss 4.4440
+
+08/29/2019 09:54:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 28400 -train_loss 4.4376
+
+08/29/2019 09:56:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 28500 -train_loss 4.4312
+
+08/29/2019 09:58:46 - INFO - __main__ -   ===================== -epoch 0 -train_step 28600 -train_loss 4.4248
+
+08/29/2019 10:00:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 28700 -train_loss 4.4184
+
+08/29/2019 10:02:49 - INFO - __main__ -   ===================== -epoch 0 -train_step 28800 -train_loss 4.4121
+
+08/29/2019 10:04:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 28900 -train_loss 4.4058
+
+08/29/2019 10:06:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 29000 -train_loss 4.3996
+
+08/29/2019 10:08:53 - INFO - __main__ -   ===================== -epoch 0 -train_step 29100 -train_loss 4.3934
+
+08/29/2019 10:10:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 29200 -train_loss 4.3872
+
+08/29/2019 10:12:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 29300 -train_loss 4.3809
+
+08/29/2019 10:14:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 29400 -train_loss 4.3748
+
+08/29/2019 10:16:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 29500 -train_loss 4.3687
+
+08/29/2019 10:19:00 - INFO - __main__ -   ===================== -epoch 0 -train_step 29600 -train_loss 4.3626
+
+08/29/2019 10:21:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 29700 -train_loss 4.3566
+
+08/29/2019 10:23:03 - INFO - __main__ -   ===================== -epoch 0 -train_step 29800 -train_loss 4.3505
+
+08/29/2019 10:25:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 29900 -train_loss 4.3444
+
+08/29/2019 10:27:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 30000 -train_loss 4.3385
+
+08/29/2019 10:45:42 - INFO - __main__ -   ============================ -epoch 0 -train_loss 4.3385 -eval_loss 2.5425
+
+08/29/2019 10:47:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 30100 -train_loss 4.3324
+
+08/29/2019 10:49:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 30200 -train_loss 4.3265
+
+08/29/2019 10:51:46 - INFO - __main__ -   ===================== -epoch 0 -train_step 30300 -train_loss 4.3204
+
+08/29/2019 10:53:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 30400 -train_loss 4.3144
+
+08/29/2019 10:55:49 - INFO - __main__ -   ===================== -epoch 0 -train_step 30500 -train_loss 4.3084
+
+08/29/2019 10:57:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 30600 -train_loss 4.3026
+
+08/29/2019 10:59:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 30700 -train_loss 4.2967
+
+08/29/2019 11:01:53 - INFO - __main__ -   ===================== -epoch 0 -train_step 30800 -train_loss 4.2908
+
+08/29/2019 11:03:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 30900 -train_loss 4.2851
+
+08/29/2019 11:05:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 31000 -train_loss 4.2793
+
+08/29/2019 11:07:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 31100 -train_loss 4.2735
+
+08/29/2019 11:09:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 31200 -train_loss 4.2678
+
+08/29/2019 11:12:00 - INFO - __main__ -   ===================== -epoch 0 -train_step 31300 -train_loss 4.2623
+
+08/29/2019 11:14:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 31400 -train_loss 4.2565
+
+08/29/2019 11:16:03 - INFO - __main__ -   ===================== -epoch 0 -train_step 31500 -train_loss 4.2509
+
+08/29/2019 11:18:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 31600 -train_loss 4.2453
+
+08/29/2019 11:20:06 - INFO - __main__ -   ===================== -epoch 0 -train_step 31700 -train_loss 4.2395
+
+08/29/2019 11:22:07 - INFO - __main__ -   ===================== -epoch 0 -train_step 31800 -train_loss 4.2338
+
+08/29/2019 11:24:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 31900 -train_loss 4.2282
+
+08/29/2019 11:26:10 - INFO - __main__ -   ===================== -epoch 0 -train_step 32000 -train_loss 4.2226
+
+08/29/2019 11:28:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 32100 -train_loss 4.2171
+
+08/29/2019 11:30:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 32200 -train_loss 4.2116
+
+08/29/2019 11:32:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 32300 -train_loss 4.2060
+
+08/29/2019 11:34:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 32400 -train_loss 4.2005
+
+08/29/2019 11:36:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 32500 -train_loss 4.1950
+
+08/29/2019 11:38:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 32600 -train_loss 4.1895
+
+08/29/2019 11:40:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 32700 -train_loss 4.1841
+
+08/29/2019 11:42:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 32800 -train_loss 4.1788
+
+08/29/2019 11:44:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 32900 -train_loss 4.1735
+
+08/29/2019 11:46:25 - INFO - __main__ -   ===================== -epoch 0 -train_step 33000 -train_loss 4.1682
+
+08/29/2019 11:48:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 33100 -train_loss 4.1629
+
+08/29/2019 11:50:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 33200 -train_loss 4.1575
+
+08/29/2019 11:52:29 - INFO - __main__ -   ===================== -epoch 0 -train_step 33300 -train_loss 4.1521
+
+08/29/2019 11:54:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 33400 -train_loss 4.1468
+
+08/29/2019 11:56:32 - INFO - __main__ -   ===================== -epoch 0 -train_step 33500 -train_loss 4.1416
+
+08/29/2019 11:58:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 33600 -train_loss 4.1363
+
+08/29/2019 12:00:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 33700 -train_loss 4.1313
+
+08/29/2019 12:02:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 33800 -train_loss 4.1261
+
+08/29/2019 12:04:37 - INFO - __main__ -   ===================== -epoch 0 -train_step 33900 -train_loss 4.1210
+
+08/29/2019 12:06:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 34000 -train_loss 4.1159
+
+08/29/2019 12:08:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 34100 -train_loss 4.1106
+
+08/29/2019 12:10:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 34200 -train_loss 4.1056
+
+08/29/2019 12:12:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 34300 -train_loss 4.1005
+
+08/29/2019 12:14:44 - INFO - __main__ -   ===================== -epoch 0 -train_step 34400 -train_loss 4.0955
+
+08/29/2019 12:16:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 34500 -train_loss 4.0906
+
+08/29/2019 12:18:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 34600 -train_loss 4.0856
+
+08/29/2019 12:20:48 - INFO - __main__ -   ===================== -epoch 0 -train_step 34700 -train_loss 4.0807
+
+08/29/2019 12:22:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 34800 -train_loss 4.0757
+
+08/29/2019 12:24:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 34900 -train_loss 4.0708
+
+08/29/2019 12:26:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 35000 -train_loss 4.0659
+
+08/29/2019 12:45:23 - INFO - __main__ -   ============================ -epoch 0 -train_loss 4.0659 -eval_loss 2.3464
+
+08/29/2019 12:47:25 - INFO - __main__ -   ===================== -epoch 0 -train_step 35100 -train_loss 4.0608
+
+08/29/2019 12:49:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 35200 -train_loss 4.0559
+
+08/29/2019 12:51:28 - INFO - __main__ -   ===================== -epoch 0 -train_step 35300 -train_loss 4.0511
+
+08/29/2019 12:53:29 - INFO - __main__ -   ===================== -epoch 0 -train_step 35400 -train_loss 4.0462
+
+08/29/2019 12:55:31 - INFO - __main__ -   ===================== -epoch 0 -train_step 35500 -train_loss 4.0413
+
+08/29/2019 12:57:32 - INFO - __main__ -   ===================== -epoch 0 -train_step 35600 -train_loss 4.0365
+
+08/29/2019 12:59:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 35700 -train_loss 4.0317
+
+08/29/2019 13:01:35 - INFO - __main__ -   ===================== -epoch 0 -train_step 35800 -train_loss 4.0270
+
+08/29/2019 13:03:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 35900 -train_loss 4.0222
+
+08/29/2019 13:05:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 36000 -train_loss 4.0175
+
+08/29/2019 13:07:39 - INFO - __main__ -   ===================== -epoch 0 -train_step 36100 -train_loss 4.0127
+
+08/29/2019 13:09:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 36200 -train_loss 4.0080
+
+08/29/2019 13:11:42 - INFO - __main__ -   ===================== -epoch 0 -train_step 36300 -train_loss 4.0033
+
+08/29/2019 13:13:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 36400 -train_loss 3.9987
+
+08/29/2019 13:15:44 - INFO - __main__ -   ===================== -epoch 0 -train_step 36500 -train_loss 3.9940
+
+08/29/2019 13:17:46 - INFO - __main__ -   ===================== -epoch 0 -train_step 36600 -train_loss 3.9895
+
+08/29/2019 13:19:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 36700 -train_loss 3.9848
+
+08/29/2019 13:21:49 - INFO - __main__ -   ===================== -epoch 0 -train_step 36800 -train_loss 3.9803
+
+08/29/2019 13:23:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 36900 -train_loss 3.9757
+
+08/29/2019 13:25:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 37000 -train_loss 3.9712
+
+08/29/2019 13:27:53 - INFO - __main__ -   ===================== -epoch 0 -train_step 37100 -train_loss 3.9667
+
+08/29/2019 13:29:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 37200 -train_loss 3.9622
+
+08/29/2019 13:31:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 37300 -train_loss 3.9578
+
+08/29/2019 13:33:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 37400 -train_loss 3.9533
+
+08/29/2019 13:35:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 37500 -train_loss 3.9489
+
+08/29/2019 13:38:00 - INFO - __main__ -   ===================== -epoch 0 -train_step 37600 -train_loss 3.9444
+
+08/29/2019 13:40:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 37700 -train_loss 3.9400
+
+08/29/2019 13:42:03 - INFO - __main__ -   ===================== -epoch 0 -train_step 37800 -train_loss 3.9356
+
+08/29/2019 13:44:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 37900 -train_loss 3.9312
+
+08/29/2019 13:46:06 - INFO - __main__ -   ===================== -epoch 0 -train_step 38000 -train_loss 3.9268
+
+08/29/2019 13:48:07 - INFO - __main__ -   ===================== -epoch 0 -train_step 38100 -train_loss 3.9225
+
+08/29/2019 13:50:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 38200 -train_loss 3.9182
+
+08/29/2019 13:52:10 - INFO - __main__ -   ===================== -epoch 0 -train_step 38300 -train_loss 3.9139
+
+08/29/2019 13:54:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 38400 -train_loss 3.9097
+
+08/29/2019 13:56:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 38500 -train_loss 3.9054
+
+08/29/2019 13:58:14 - INFO - __main__ -   ===================== -epoch 0 -train_step 38600 -train_loss 3.9011
+
+08/29/2019 14:00:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 38700 -train_loss 3.8969
+
+08/29/2019 14:02:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 38800 -train_loss 3.8928
+
+08/29/2019 14:04:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 38900 -train_loss 3.8886
+
+08/29/2019 14:06:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 39000 -train_loss 3.8844
+
+08/29/2019 14:08:21 - INFO - __main__ -   ===================== -epoch 0 -train_step 39100 -train_loss 3.8802
+
+08/29/2019 14:10:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 39200 -train_loss 3.8761
+
+08/29/2019 14:12:24 - INFO - __main__ -   ===================== -epoch 0 -train_step 39300 -train_loss 3.8718
+
+08/29/2019 14:14:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 39400 -train_loss 3.8676
+
+08/29/2019 14:16:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 39500 -train_loss 3.8635
+
+08/29/2019 14:18:28 - INFO - __main__ -   ===================== -epoch 0 -train_step 39600 -train_loss 3.8595
+
+08/29/2019 14:20:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 39700 -train_loss 3.8553
+
+08/29/2019 14:22:31 - INFO - __main__ -   ===================== -epoch 0 -train_step 39800 -train_loss 3.8512
+
+08/29/2019 14:24:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 39900 -train_loss 3.8471
+
+08/29/2019 14:26:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 40000 -train_loss 3.8431
+
+08/29/2019 14:45:10 - INFO - __main__ -   ============================ -epoch 0 -train_loss 3.8431 -eval_loss 2.2289
+
+08/29/2019 14:47:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 40100 -train_loss 3.8390
+
+08/29/2019 14:49:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 40200 -train_loss 3.8349
+
+08/29/2019 14:51:14 - INFO - __main__ -   ===================== -epoch 0 -train_step 40300 -train_loss 3.8310
+
+08/29/2019 14:53:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 40400 -train_loss 3.8271
+
+08/29/2019 14:55:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 40500 -train_loss 3.8230
+
+08/29/2019 14:57:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 40600 -train_loss 3.8192
+
+08/29/2019 14:59:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 40700 -train_loss 3.8152
+
+08/29/2019 15:01:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 40800 -train_loss 3.8114
+
+08/29/2019 15:03:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 40900 -train_loss 3.8074
+
+08/29/2019 15:05:24 - INFO - __main__ -   ===================== -epoch 0 -train_step 41000 -train_loss 3.8036
+
+08/29/2019 15:07:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 41100 -train_loss 3.7997
+
+08/29/2019 15:09:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 41200 -train_loss 3.7958
+
+08/29/2019 15:11:29 - INFO - __main__ -   ===================== -epoch 0 -train_step 41300 -train_loss 3.7920
+
+08/29/2019 15:13:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 41400 -train_loss 3.7883
+
+08/29/2019 15:15:31 - INFO - __main__ -   ===================== -epoch 0 -train_step 41500 -train_loss 3.7844
+
+08/29/2019 15:17:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 41600 -train_loss 3.7807
+
+08/29/2019 15:19:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 41700 -train_loss 3.7770
+
+08/29/2019 15:21:35 - INFO - __main__ -   ===================== -epoch 0 -train_step 41800 -train_loss 3.7731
+
+08/29/2019 15:23:37 - INFO - __main__ -   ===================== -epoch 0 -train_step 41900 -train_loss 3.7694
+
+08/29/2019 15:25:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 42000 -train_loss 3.7656
+
+08/29/2019 15:27:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 42100 -train_loss 3.7618
+
+08/29/2019 15:29:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 42200 -train_loss 3.7580
+
+08/29/2019 15:31:42 - INFO - __main__ -   ===================== -epoch 0 -train_step 42300 -train_loss 3.7543
+
+08/29/2019 15:33:44 - INFO - __main__ -   ===================== -epoch 0 -train_step 42400 -train_loss 3.7506
+
+08/29/2019 15:35:45 - INFO - __main__ -   ===================== -epoch 0 -train_step 42500 -train_loss 3.7469
+
+08/29/2019 15:37:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 42600 -train_loss 3.7433
+
+08/29/2019 15:39:48 - INFO - __main__ -   ===================== -epoch 0 -train_step 42700 -train_loss 3.7397
+
+08/29/2019 15:41:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 42800 -train_loss 3.7361
+
+08/29/2019 15:43:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 42900 -train_loss 3.7324
+
+08/29/2019 15:45:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 43000 -train_loss 3.7287
+
+08/29/2019 15:47:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 43100 -train_loss 3.7251
+
+08/29/2019 15:49:55 - INFO - __main__ -   ===================== -epoch 0 -train_step 43200 -train_loss 3.7216
+
+08/29/2019 15:51:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 43300 -train_loss 3.7180
+
+08/29/2019 15:53:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 43400 -train_loss 3.7143
+
+08/29/2019 15:55:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 43500 -train_loss 3.7108
+
+08/29/2019 15:58:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 43600 -train_loss 3.7073
+
+08/29/2019 16:00:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 43700 -train_loss 3.7038
+
+08/29/2019 16:02:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 43800 -train_loss 3.7003
+
+08/29/2019 16:04:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 43900 -train_loss 3.6968
+
+08/29/2019 16:06:06 - INFO - __main__ -   ===================== -epoch 0 -train_step 44000 -train_loss 3.6933
+
+08/29/2019 16:08:08 - INFO - __main__ -   ===================== -epoch 0 -train_step 44100 -train_loss 3.6898
+
+08/29/2019 16:10:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 44200 -train_loss 3.6864
+
+08/29/2019 16:12:11 - INFO - __main__ -   ===================== -epoch 0 -train_step 44300 -train_loss 3.6829
+
+08/29/2019 16:14:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 44400 -train_loss 3.6794
+
+08/29/2019 16:16:14 - INFO - __main__ -   ===================== -epoch 0 -train_step 44500 -train_loss 3.6760
+
+08/29/2019 16:18:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 44600 -train_loss 3.6726
+
+08/29/2019 16:20:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 44700 -train_loss 3.6692
+
+08/29/2019 16:22:18 - INFO - __main__ -   ===================== -epoch 0 -train_step 44800 -train_loss 3.6658
+
+08/29/2019 16:24:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 44900 -train_loss 3.6625
+
+08/29/2019 16:26:21 - INFO - __main__ -   ===================== -epoch 0 -train_step 45000 -train_loss 3.6591
+
+08/29/2019 16:44:51 - INFO - __main__ -   ============================ -epoch 0 -train_loss 3.6591 -eval_loss 2.1405
+
+08/29/2019 16:46:52 - INFO - __main__ -   ===================== -epoch 0 -train_step 45100 -train_loss 3.6557
+
+08/29/2019 16:48:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 45200 -train_loss 3.6524
+
+08/29/2019 16:50:55 - INFO - __main__ -   ===================== -epoch 0 -train_step 45300 -train_loss 3.6491
+
+08/29/2019 16:52:57 - INFO - __main__ -   ===================== -epoch 0 -train_step 45400 -train_loss 3.6457
+
+08/29/2019 16:54:58 - INFO - __main__ -   ===================== -epoch 0 -train_step 45500 -train_loss 3.6423
+
+08/29/2019 16:56:59 - INFO - __main__ -   ===================== -epoch 0 -train_step 45600 -train_loss 3.6390
+
+08/29/2019 16:59:01 - INFO - __main__ -   ===================== -epoch 0 -train_step 45700 -train_loss 3.6357
+
+08/29/2019 17:01:02 - INFO - __main__ -   ===================== -epoch 0 -train_step 45800 -train_loss 3.6324
+
+08/29/2019 17:03:04 - INFO - __main__ -   ===================== -epoch 0 -train_step 45900 -train_loss 3.6291
+
+08/29/2019 17:05:05 - INFO - __main__ -   ===================== -epoch 0 -train_step 46000 -train_loss 3.6258
+
+08/29/2019 17:07:06 - INFO - __main__ -   ===================== -epoch 0 -train_step 46100 -train_loss 3.6226
+
+08/29/2019 17:09:08 - INFO - __main__ -   ===================== -epoch 0 -train_step 46200 -train_loss 3.6194
+
+08/29/2019 17:11:09 - INFO - __main__ -   ===================== -epoch 0 -train_step 46300 -train_loss 3.6162
+
+08/29/2019 17:13:10 - INFO - __main__ -   ===================== -epoch 0 -train_step 46400 -train_loss 3.6129
+
+08/29/2019 17:15:12 - INFO - __main__ -   ===================== -epoch 0 -train_step 46500 -train_loss 3.6097
+
+08/29/2019 17:17:13 - INFO - __main__ -   ===================== -epoch 0 -train_step 46600 -train_loss 3.6065
+
+08/29/2019 17:19:15 - INFO - __main__ -   ===================== -epoch 0 -train_step 46700 -train_loss 3.6033
+
+08/29/2019 17:21:16 - INFO - __main__ -   ===================== -epoch 0 -train_step 46800 -train_loss 3.6001
+
+08/29/2019 17:23:17 - INFO - __main__ -   ===================== -epoch 0 -train_step 46900 -train_loss 3.5969
+
+08/29/2019 17:25:19 - INFO - __main__ -   ===================== -epoch 0 -train_step 47000 -train_loss 3.5938
+
+08/29/2019 17:27:20 - INFO - __main__ -   ===================== -epoch 0 -train_step 47100 -train_loss 3.5906
+
+08/29/2019 17:29:22 - INFO - __main__ -   ===================== -epoch 0 -train_step 47200 -train_loss 3.5875
+
+08/29/2019 17:31:23 - INFO - __main__ -   ===================== -epoch 0 -train_step 47300 -train_loss 3.5843
+
+08/29/2019 17:33:24 - INFO - __main__ -   ===================== -epoch 0 -train_step 47400 -train_loss 3.5811
+
+08/29/2019 17:35:26 - INFO - __main__ -   ===================== -epoch 0 -train_step 47500 -train_loss 3.5780
+
+08/29/2019 17:37:27 - INFO - __main__ -   ===================== -epoch 0 -train_step 47600 -train_loss 3.5749
+
+08/29/2019 17:39:29 - INFO - __main__ -   ===================== -epoch 0 -train_step 47700 -train_loss 3.5717
+
+08/29/2019 17:41:30 - INFO - __main__ -   ===================== -epoch 0 -train_step 47800 -train_loss 3.5687
+
+08/29/2019 17:43:31 - INFO - __main__ -   ===================== -epoch 0 -train_step 47900 -train_loss 3.5656
+
+08/29/2019 17:45:33 - INFO - __main__ -   ===================== -epoch 0 -train_step 48000 -train_loss 3.5626
+
+08/29/2019 17:47:34 - INFO - __main__ -   ===================== -epoch 0 -train_step 48100 -train_loss 3.5595
+
+08/29/2019 17:49:36 - INFO - __main__ -   ===================== -epoch 0 -train_step 48200 -train_loss 3.5565
+
+08/29/2019 17:51:37 - INFO - __main__ -   ===================== -epoch 0 -train_step 48300 -train_loss 3.5534
+
+08/29/2019 17:53:38 - INFO - __main__ -   ===================== -epoch 0 -train_step 48400 -train_loss 3.5503
+
+08/29/2019 17:55:40 - INFO - __main__ -   ===================== -epoch 0 -train_step 48500 -train_loss 3.5473
+
+08/29/2019 17:57:41 - INFO - __main__ -   ===================== -epoch 0 -train_step 48600 -train_loss 3.5444
+
+08/29/2019 17:59:43 - INFO - __main__ -   ===================== -epoch 0 -train_step 48700 -train_loss 3.5413
+
+08/29/2019 18:01:44 - INFO - __main__ -   ===================== -epoch 0 -train_step 48800 -train_loss 3.5384
+
+08/29/2019 18:03:46 - INFO - __main__ -   ===================== -epoch 0 -train_step 48900 -train_loss 3.5354
+
+08/29/2019 18:05:47 - INFO - __main__ -   ===================== -epoch 0 -train_step 49000 -train_loss 3.5324
+
+08/29/2019 18:07:48 - INFO - __main__ -   ===================== -epoch 0 -train_step 49100 -train_loss 3.5294
+
+08/29/2019 18:09:50 - INFO - __main__ -   ===================== -epoch 0 -train_step 49200 -train_loss 3.5263
+
+08/29/2019 18:11:51 - INFO - __main__ -   ===================== -epoch 0 -train_step 49300 -train_loss 3.5235
+
+08/29/2019 18:13:53 - INFO - __main__ -   ===================== -epoch 0 -train_step 49400 -train_loss 3.5205
+
+08/29/2019 18:15:54 - INFO - __main__ -   ===================== -epoch 0 -train_step 49500 -train_loss 3.5177
+
+08/29/2019 18:17:56 - INFO - __main__ -   ===================== -epoch 0 -train_step 49600 -train_loss 3.5147
+
+08/29/2019 18:20:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 100 -train_loss 1.9891
+
+08/29/2019 18:22:12 - INFO - __main__ -   ===================== -epoch 1 -train_step 200 -train_loss 1.9829
+
+08/29/2019 18:24:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 300 -train_loss 1.9745
+
+08/29/2019 18:26:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 400 -train_loss 1.9600
+
+08/29/2019 18:28:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 500 -train_loss 1.9478
+
+08/29/2019 18:30:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 600 -train_loss 1.9452
+
+08/29/2019 18:32:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 700 -train_loss 1.9472
+
+08/29/2019 18:34:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 800 -train_loss 1.9512
+
+08/29/2019 18:36:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 900 -train_loss 1.9504
+
+08/29/2019 18:38:23 - INFO - __main__ -   ===================== -epoch 1 -train_step 1000 -train_loss 1.9525
+
+08/29/2019 18:40:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 1100 -train_loss 1.9491
+
+08/29/2019 18:42:26 - INFO - __main__ -   ===================== -epoch 1 -train_step 1200 -train_loss 1.9479
+
+08/29/2019 18:44:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 1300 -train_loss 1.9479
+
+08/29/2019 18:46:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 1400 -train_loss 1.9508
+
+08/29/2019 18:48:30 - INFO - __main__ -   ===================== -epoch 1 -train_step 1500 -train_loss 1.9486
+
+08/29/2019 18:50:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 1600 -train_loss 1.9483
+
+08/29/2019 18:52:33 - INFO - __main__ -   ===================== -epoch 1 -train_step 1700 -train_loss 1.9499
+
+08/29/2019 18:54:34 - INFO - __main__ -   ===================== -epoch 1 -train_step 1800 -train_loss 1.9475
+
+08/29/2019 18:56:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 1900 -train_loss 1.9469
+
+08/29/2019 18:58:37 - INFO - __main__ -   ===================== -epoch 1 -train_step 2000 -train_loss 1.9476
+
+08/29/2019 19:00:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 2100 -train_loss 1.9466
+
+08/29/2019 19:02:40 - INFO - __main__ -   ===================== -epoch 1 -train_step 2200 -train_loss 1.9477
+
+08/29/2019 19:04:41 - INFO - __main__ -   ===================== -epoch 1 -train_step 2300 -train_loss 1.9473
+
+08/29/2019 19:06:42 - INFO - __main__ -   ===================== -epoch 1 -train_step 2400 -train_loss 1.9465
+
+08/29/2019 19:08:44 - INFO - __main__ -   ===================== -epoch 1 -train_step 2500 -train_loss 1.9465
+
+08/29/2019 19:10:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 2600 -train_loss 1.9453
+
+08/29/2019 19:12:47 - INFO - __main__ -   ===================== -epoch 1 -train_step 2700 -train_loss 1.9452
+
+08/29/2019 19:14:48 - INFO - __main__ -   ===================== -epoch 1 -train_step 2800 -train_loss 1.9444
+
+08/29/2019 19:16:49 - INFO - __main__ -   ===================== -epoch 1 -train_step 2900 -train_loss 1.9433
+
+08/29/2019 19:18:51 - INFO - __main__ -   ===================== -epoch 1 -train_step 3000 -train_loss 1.9429
+
+08/29/2019 19:20:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 3100 -train_loss 1.9433
+
+08/29/2019 19:22:54 - INFO - __main__ -   ===================== -epoch 1 -train_step 3200 -train_loss 1.9429
+
+08/29/2019 19:24:55 - INFO - __main__ -   ===================== -epoch 1 -train_step 3300 -train_loss 1.9415
+
+08/29/2019 19:26:56 - INFO - __main__ -   ===================== -epoch 1 -train_step 3400 -train_loss 1.9401
+
+08/29/2019 19:28:58 - INFO - __main__ -   ===================== -epoch 1 -train_step 3500 -train_loss 1.9408
+
+08/29/2019 19:30:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 3600 -train_loss 1.9394
+
+08/29/2019 19:33:01 - INFO - __main__ -   ===================== -epoch 1 -train_step 3700 -train_loss 1.9384
+
+08/29/2019 19:35:02 - INFO - __main__ -   ===================== -epoch 1 -train_step 3800 -train_loss 1.9383
+
+08/29/2019 19:37:03 - INFO - __main__ -   ===================== -epoch 1 -train_step 3900 -train_loss 1.9379
+
+08/29/2019 19:39:05 - INFO - __main__ -   ===================== -epoch 1 -train_step 4000 -train_loss 1.9376
+
+08/29/2019 19:41:06 - INFO - __main__ -   ===================== -epoch 1 -train_step 4100 -train_loss 1.9371
+
+08/29/2019 19:43:08 - INFO - __main__ -   ===================== -epoch 1 -train_step 4200 -train_loss 1.9363
+
+08/29/2019 19:45:09 - INFO - __main__ -   ===================== -epoch 1 -train_step 4300 -train_loss 1.9351
+
+08/29/2019 19:47:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 4400 -train_loss 1.9349
+
+08/29/2019 19:49:12 - INFO - __main__ -   ===================== -epoch 1 -train_step 4500 -train_loss 1.9343
+
+08/29/2019 19:51:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 4600 -train_loss 1.9344
+
+08/29/2019 19:53:15 - INFO - __main__ -   ===================== -epoch 1 -train_step 4700 -train_loss 1.9344
+
+08/29/2019 19:55:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 4800 -train_loss 1.9339
+
+08/29/2019 19:57:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 4900 -train_loss 1.9345
+
+08/29/2019 19:59:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 5000 -train_loss 1.9345
+
+08/29/2019 20:17:50 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.9345 -eval_loss 2.0088
+
+08/29/2019 20:19:51 - INFO - __main__ -   ===================== -epoch 1 -train_step 5100 -train_loss 1.9337
+
+08/29/2019 20:21:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 5200 -train_loss 1.9330
+
+08/29/2019 20:23:54 - INFO - __main__ -   ===================== -epoch 1 -train_step 5300 -train_loss 1.9334
+
+08/29/2019 20:25:55 - INFO - __main__ -   ===================== -epoch 1 -train_step 5400 -train_loss 1.9335
+
+08/29/2019 20:27:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 5500 -train_loss 1.9327
+
+08/29/2019 20:29:58 - INFO - __main__ -   ===================== -epoch 1 -train_step 5600 -train_loss 1.9326
+
+08/29/2019 20:32:00 - INFO - __main__ -   ===================== -epoch 1 -train_step 5700 -train_loss 1.9318
+
+08/29/2019 20:34:01 - INFO - __main__ -   ===================== -epoch 1 -train_step 5800 -train_loss 1.9317
+
+08/29/2019 20:36:02 - INFO - __main__ -   ===================== -epoch 1 -train_step 5900 -train_loss 1.9319
+
+08/29/2019 20:38:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 6000 -train_loss 1.9313
+
+08/29/2019 20:40:05 - INFO - __main__ -   ===================== -epoch 1 -train_step 6100 -train_loss 1.9309
+
+08/29/2019 20:42:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 6200 -train_loss 1.9306
+
+08/29/2019 20:44:08 - INFO - __main__ -   ===================== -epoch 1 -train_step 6300 -train_loss 1.9297
+
+08/29/2019 20:46:09 - INFO - __main__ -   ===================== -epoch 1 -train_step 6400 -train_loss 1.9301
+
+08/29/2019 20:48:11 - INFO - __main__ -   ===================== -epoch 1 -train_step 6500 -train_loss 1.9298
+
+08/29/2019 20:50:12 - INFO - __main__ -   ===================== -epoch 1 -train_step 6600 -train_loss 1.9299
+
+08/29/2019 20:52:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 6700 -train_loss 1.9298
+
+08/29/2019 20:54:15 - INFO - __main__ -   ===================== -epoch 1 -train_step 6800 -train_loss 1.9298
+
+08/29/2019 20:56:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 6900 -train_loss 1.9291
+
+08/29/2019 20:58:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 7000 -train_loss 1.9285
+
+08/29/2019 21:00:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 7100 -train_loss 1.9281
+
+08/29/2019 21:02:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 7200 -train_loss 1.9280
+
+08/29/2019 21:04:22 - INFO - __main__ -   ===================== -epoch 1 -train_step 7300 -train_loss 1.9276
+
+08/29/2019 21:06:23 - INFO - __main__ -   ===================== -epoch 1 -train_step 7400 -train_loss 1.9269
+
+08/29/2019 21:08:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 7500 -train_loss 1.9264
+
+08/29/2019 21:10:26 - INFO - __main__ -   ===================== -epoch 1 -train_step 7600 -train_loss 1.9261
+
+08/29/2019 21:12:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 7700 -train_loss 1.9258
+
+08/29/2019 21:14:29 - INFO - __main__ -   ===================== -epoch 1 -train_step 7800 -train_loss 1.9254
+
+08/29/2019 21:16:30 - INFO - __main__ -   ===================== -epoch 1 -train_step 7900 -train_loss 1.9257
+
+08/29/2019 21:18:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 8000 -train_loss 1.9252
+
+08/29/2019 21:20:33 - INFO - __main__ -   ===================== -epoch 1 -train_step 8100 -train_loss 1.9249
+
+08/29/2019 21:22:34 - INFO - __main__ -   ===================== -epoch 1 -train_step 8200 -train_loss 1.9248
+
+08/29/2019 21:24:36 - INFO - __main__ -   ===================== -epoch 1 -train_step 8300 -train_loss 1.9243
+
+08/29/2019 21:26:37 - INFO - __main__ -   ===================== -epoch 1 -train_step 8400 -train_loss 1.9239
+
+08/29/2019 21:28:44 - INFO - __main__ -   ===================== -epoch 1 -train_step 8500 -train_loss 1.9241
+
+08/29/2019 21:30:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 8600 -train_loss 1.9236
+
+08/29/2019 21:32:47 - INFO - __main__ -   ===================== -epoch 1 -train_step 8700 -train_loss 1.9229
+
+08/29/2019 21:34:48 - INFO - __main__ -   ===================== -epoch 1 -train_step 8800 -train_loss 1.9226
+
+08/29/2019 21:36:50 - INFO - __main__ -   ===================== -epoch 1 -train_step 8900 -train_loss 1.9225
+
+08/29/2019 21:38:51 - INFO - __main__ -   ===================== -epoch 1 -train_step 9000 -train_loss 1.9226
+
+08/29/2019 21:40:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 9100 -train_loss 1.9221
+
+08/29/2019 21:42:54 - INFO - __main__ -   ===================== -epoch 1 -train_step 9200 -train_loss 1.9215
+
+08/29/2019 21:44:55 - INFO - __main__ -   ===================== -epoch 1 -train_step 9300 -train_loss 1.9208
+
+08/29/2019 21:46:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 9400 -train_loss 1.9203
+
+08/29/2019 21:48:58 - INFO - __main__ -   ===================== -epoch 1 -train_step 9500 -train_loss 1.9201
+
+08/29/2019 21:50:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 9600 -train_loss 1.9198
+
+08/29/2019 21:53:01 - INFO - __main__ -   ===================== -epoch 1 -train_step 9700 -train_loss 1.9195
+
+08/29/2019 21:55:02 - INFO - __main__ -   ===================== -epoch 1 -train_step 9800 -train_loss 1.9188
+
+08/29/2019 21:57:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 9900 -train_loss 1.9185
+
+08/29/2019 21:59:05 - INFO - __main__ -   ===================== -epoch 1 -train_step 10000 -train_loss 1.9178
+
+08/29/2019 22:17:36 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.9178 -eval_loss 1.9527
+
+08/29/2019 22:19:37 - INFO - __main__ -   ===================== -epoch 1 -train_step 10100 -train_loss 1.9174
+
+08/29/2019 22:21:39 - INFO - __main__ -   ===================== -epoch 1 -train_step 10200 -train_loss 1.9171
+
+08/29/2019 22:23:40 - INFO - __main__ -   ===================== -epoch 1 -train_step 10300 -train_loss 1.9169
+
+08/29/2019 22:25:41 - INFO - __main__ -   ===================== -epoch 1 -train_step 10400 -train_loss 1.9167
+
+08/29/2019 22:27:43 - INFO - __main__ -   ===================== -epoch 1 -train_step 10500 -train_loss 1.9169
+
+08/29/2019 22:29:44 - INFO - __main__ -   ===================== -epoch 1 -train_step 10600 -train_loss 1.9165
+
+08/29/2019 22:31:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 10700 -train_loss 1.9163
+
+08/29/2019 22:33:47 - INFO - __main__ -   ===================== -epoch 1 -train_step 10800 -train_loss 1.9159
+
+08/29/2019 22:35:48 - INFO - __main__ -   ===================== -epoch 1 -train_step 10900 -train_loss 1.9157
+
+08/29/2019 22:37:50 - INFO - __main__ -   ===================== -epoch 1 -train_step 11000 -train_loss 1.9153
+
+08/29/2019 22:39:51 - INFO - __main__ -   ===================== -epoch 1 -train_step 11100 -train_loss 1.9153
+
+08/29/2019 22:41:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 11200 -train_loss 1.9150
+
+08/29/2019 22:43:54 - INFO - __main__ -   ===================== -epoch 1 -train_step 11300 -train_loss 1.9149
+
+08/29/2019 22:45:56 - INFO - __main__ -   ===================== -epoch 1 -train_step 11400 -train_loss 1.9148
+
+08/29/2019 22:47:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 11500 -train_loss 1.9145
+
+08/29/2019 22:49:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 11600 -train_loss 1.9140
+
+08/29/2019 22:52:00 - INFO - __main__ -   ===================== -epoch 1 -train_step 11700 -train_loss 1.9135
+
+08/29/2019 22:54:01 - INFO - __main__ -   ===================== -epoch 1 -train_step 11800 -train_loss 1.9134
+
+08/29/2019 22:56:03 - INFO - __main__ -   ===================== -epoch 1 -train_step 11900 -train_loss 1.9132
+
+08/29/2019 22:58:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 12000 -train_loss 1.9128
+
+08/29/2019 23:00:06 - INFO - __main__ -   ===================== -epoch 1 -train_step 12100 -train_loss 1.9123
+
+08/29/2019 23:02:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 12200 -train_loss 1.9121
+
+08/29/2019 23:04:09 - INFO - __main__ -   ===================== -epoch 1 -train_step 12300 -train_loss 1.9118
+
+08/29/2019 23:06:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 12400 -train_loss 1.9114
+
+08/29/2019 23:08:12 - INFO - __main__ -   ===================== -epoch 1 -train_step 12500 -train_loss 1.9111
+
+08/29/2019 23:10:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 12600 -train_loss 1.9105
+
+08/29/2019 23:12:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 12700 -train_loss 1.9105
+
+08/29/2019 23:14:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 12800 -train_loss 1.9100
+
+08/29/2019 23:16:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 12900 -train_loss 1.9095
+
+08/29/2019 23:18:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 13000 -train_loss 1.9091
+
+08/29/2019 23:20:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 13100 -train_loss 1.9087
+
+08/29/2019 23:22:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 13200 -train_loss 1.9086
+
+08/29/2019 23:24:23 - INFO - __main__ -   ===================== -epoch 1 -train_step 13300 -train_loss 1.9084
+
+08/29/2019 23:26:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 13400 -train_loss 1.9081
+
+08/29/2019 23:28:26 - INFO - __main__ -   ===================== -epoch 1 -train_step 13500 -train_loss 1.9078
+
+08/29/2019 23:30:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 13600 -train_loss 1.9077
+
+08/29/2019 23:32:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 13700 -train_loss 1.9074
+
+08/29/2019 23:34:30 - INFO - __main__ -   ===================== -epoch 1 -train_step 13800 -train_loss 1.9070
+
+08/29/2019 23:36:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 13900 -train_loss 1.9067
+
+08/29/2019 23:38:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 14000 -train_loss 1.9065
+
+08/29/2019 23:40:34 - INFO - __main__ -   ===================== -epoch 1 -train_step 14100 -train_loss 1.9063
+
+08/29/2019 23:42:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 14200 -train_loss 1.9060
+
+08/29/2019 23:44:37 - INFO - __main__ -   ===================== -epoch 1 -train_step 14300 -train_loss 1.9055
+
+08/29/2019 23:46:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 14400 -train_loss 1.9054
+
+08/29/2019 23:48:39 - INFO - __main__ -   ===================== -epoch 1 -train_step 14500 -train_loss 1.9052
+
+08/29/2019 23:50:41 - INFO - __main__ -   ===================== -epoch 1 -train_step 14600 -train_loss 1.9050
+
+08/29/2019 23:52:42 - INFO - __main__ -   ===================== -epoch 1 -train_step 14700 -train_loss 1.9047
+
+08/29/2019 23:54:44 - INFO - __main__ -   ===================== -epoch 1 -train_step 14800 -train_loss 1.9042
+
+08/29/2019 23:56:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 14900 -train_loss 1.9038
+
+08/29/2019 23:58:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 15000 -train_loss 1.9034
+
+08/30/2019 00:17:17 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.9034 -eval_loss 1.9150
+
+08/30/2019 00:19:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 15100 -train_loss 1.9032
+
+08/30/2019 00:21:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 15200 -train_loss 1.9028
+
+08/30/2019 00:23:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 15300 -train_loss 1.9026
+
+08/30/2019 00:25:22 - INFO - __main__ -   ===================== -epoch 1 -train_step 15400 -train_loss 1.9024
+
+08/30/2019 00:27:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 15500 -train_loss 1.9020
+
+08/30/2019 00:29:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 15600 -train_loss 1.9015
+
+08/30/2019 00:31:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 15700 -train_loss 1.9011
+
+08/30/2019 00:33:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 15800 -train_loss 1.9009
+
+08/30/2019 00:35:29 - INFO - __main__ -   ===================== -epoch 1 -train_step 15900 -train_loss 1.9007
+
+08/30/2019 00:37:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 16000 -train_loss 1.9004
+
+08/30/2019 00:39:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 16100 -train_loss 1.9002
+
+08/30/2019 00:41:34 - INFO - __main__ -   ===================== -epoch 1 -train_step 16200 -train_loss 1.8996
+
+08/30/2019 00:43:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 16300 -train_loss 1.8990
+
+08/30/2019 00:45:36 - INFO - __main__ -   ===================== -epoch 1 -train_step 16400 -train_loss 1.8986
+
+08/30/2019 00:47:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 16500 -train_loss 1.8982
+
+08/30/2019 00:49:39 - INFO - __main__ -   ===================== -epoch 1 -train_step 16600 -train_loss 1.8978
+
+08/30/2019 00:51:41 - INFO - __main__ -   ===================== -epoch 1 -train_step 16700 -train_loss 1.8975
+
+08/30/2019 00:53:42 - INFO - __main__ -   ===================== -epoch 1 -train_step 16800 -train_loss 1.8971
+
+08/30/2019 00:55:43 - INFO - __main__ -   ===================== -epoch 1 -train_step 16900 -train_loss 1.8969
+
+08/30/2019 00:57:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 17000 -train_loss 1.8965
+
+08/30/2019 00:59:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 17100 -train_loss 1.8961
+
+08/30/2019 01:01:48 - INFO - __main__ -   ===================== -epoch 1 -train_step 17200 -train_loss 1.8959
+
+08/30/2019 01:03:49 - INFO - __main__ -   ===================== -epoch 1 -train_step 17300 -train_loss 1.8955
+
+08/30/2019 01:05:50 - INFO - __main__ -   ===================== -epoch 1 -train_step 17400 -train_loss 1.8952
+
+08/30/2019 01:07:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 17500 -train_loss 1.8949
+
+08/30/2019 01:09:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 17600 -train_loss 1.8946
+
+08/30/2019 01:11:55 - INFO - __main__ -   ===================== -epoch 1 -train_step 17700 -train_loss 1.8943
+
+08/30/2019 01:13:56 - INFO - __main__ -   ===================== -epoch 1 -train_step 17800 -train_loss 1.8940
+
+08/30/2019 01:15:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 17900 -train_loss 1.8937
+
+08/30/2019 01:17:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 18000 -train_loss 1.8936
+
+08/30/2019 01:20:00 - INFO - __main__ -   ===================== -epoch 1 -train_step 18100 -train_loss 1.8932
+
+08/30/2019 01:22:02 - INFO - __main__ -   ===================== -epoch 1 -train_step 18200 -train_loss 1.8929
+
+08/30/2019 01:24:03 - INFO - __main__ -   ===================== -epoch 1 -train_step 18300 -train_loss 1.8925
+
+08/30/2019 01:26:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 18400 -train_loss 1.8924
+
+08/30/2019 01:28:06 - INFO - __main__ -   ===================== -epoch 1 -train_step 18500 -train_loss 1.8921
+
+08/30/2019 01:30:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 18600 -train_loss 1.8918
+
+08/30/2019 01:32:08 - INFO - __main__ -   ===================== -epoch 1 -train_step 18700 -train_loss 1.8915
+
+08/30/2019 01:34:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 18800 -train_loss 1.8911
+
+08/30/2019 01:36:11 - INFO - __main__ -   ===================== -epoch 1 -train_step 18900 -train_loss 1.8907
+
+08/30/2019 01:38:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 19000 -train_loss 1.8903
+
+08/30/2019 01:40:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 19100 -train_loss 1.8900
+
+08/30/2019 01:42:15 - INFO - __main__ -   ===================== -epoch 1 -train_step 19200 -train_loss 1.8897
+
+08/30/2019 01:44:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 19300 -train_loss 1.8894
+
+08/30/2019 01:46:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 19400 -train_loss 1.8891
+
+08/30/2019 01:48:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 19500 -train_loss 1.8887
+
+08/30/2019 01:50:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 19600 -train_loss 1.8887
+
+08/30/2019 01:52:22 - INFO - __main__ -   ===================== -epoch 1 -train_step 19700 -train_loss 1.8883
+
+08/30/2019 01:54:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 19800 -train_loss 1.8882
+
+08/30/2019 01:56:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 19900 -train_loss 1.8880
+
+08/30/2019 01:58:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 20000 -train_loss 1.8876
+
+08/30/2019 02:17:03 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.8876 -eval_loss 1.8807
+
+08/30/2019 02:19:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 20100 -train_loss 1.8873
+
+08/30/2019 02:21:06 - INFO - __main__ -   ===================== -epoch 1 -train_step 20200 -train_loss 1.8870
+
+08/30/2019 02:23:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 20300 -train_loss 1.8867
+
+08/30/2019 02:25:08 - INFO - __main__ -   ===================== -epoch 1 -train_step 20400 -train_loss 1.8865
+
+08/30/2019 02:27:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 20500 -train_loss 1.8862
+
+08/30/2019 02:29:11 - INFO - __main__ -   ===================== -epoch 1 -train_step 20600 -train_loss 1.8859
+
+08/30/2019 02:31:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 20700 -train_loss 1.8855
+
+08/30/2019 02:33:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 20800 -train_loss 1.8853
+
+08/30/2019 02:35:15 - INFO - __main__ -   ===================== -epoch 1 -train_step 20900 -train_loss 1.8848
+
+08/30/2019 02:37:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 21000 -train_loss 1.8844
+
+08/30/2019 02:39:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 21100 -train_loss 1.8842
+
+08/30/2019 02:41:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 21200 -train_loss 1.8839
+
+08/30/2019 02:43:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 21300 -train_loss 1.8836
+
+08/30/2019 02:45:22 - INFO - __main__ -   ===================== -epoch 1 -train_step 21400 -train_loss 1.8833
+
+08/30/2019 02:47:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 21500 -train_loss 1.8830
+
+08/30/2019 02:49:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 21600 -train_loss 1.8828
+
+08/30/2019 02:51:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 21700 -train_loss 1.8825
+
+08/30/2019 02:53:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 21800 -train_loss 1.8821
+
+08/30/2019 02:55:29 - INFO - __main__ -   ===================== -epoch 1 -train_step 21900 -train_loss 1.8820
+
+08/30/2019 02:57:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 22000 -train_loss 1.8816
+
+08/30/2019 02:59:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 22100 -train_loss 1.8812
+
+08/30/2019 03:01:33 - INFO - __main__ -   ===================== -epoch 1 -train_step 22200 -train_loss 1.8809
+
+08/30/2019 03:03:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 22300 -train_loss 1.8805
+
+08/30/2019 03:05:36 - INFO - __main__ -   ===================== -epoch 1 -train_step 22400 -train_loss 1.8801
+
+08/30/2019 03:07:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 22500 -train_loss 1.8799
+
+08/30/2019 03:09:39 - INFO - __main__ -   ===================== -epoch 1 -train_step 22600 -train_loss 1.8796
+
+08/30/2019 03:11:41 - INFO - __main__ -   ===================== -epoch 1 -train_step 22700 -train_loss 1.8792
+
+08/30/2019 03:13:42 - INFO - __main__ -   ===================== -epoch 1 -train_step 22800 -train_loss 1.8790
+
+08/30/2019 03:15:43 - INFO - __main__ -   ===================== -epoch 1 -train_step 22900 -train_loss 1.8788
+
+08/30/2019 03:17:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 23000 -train_loss 1.8784
+
+08/30/2019 03:19:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 23100 -train_loss 1.8781
+
+08/30/2019 03:21:47 - INFO - __main__ -   ===================== -epoch 1 -train_step 23200 -train_loss 1.8778
+
+08/30/2019 03:23:49 - INFO - __main__ -   ===================== -epoch 1 -train_step 23300 -train_loss 1.8775
+
+08/30/2019 03:25:50 - INFO - __main__ -   ===================== -epoch 1 -train_step 23400 -train_loss 1.8772
+
+08/30/2019 03:27:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 23500 -train_loss 1.8768
+
+08/30/2019 03:29:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 23600 -train_loss 1.8765
+
+08/30/2019 03:31:54 - INFO - __main__ -   ===================== -epoch 1 -train_step 23700 -train_loss 1.8761
+
+08/30/2019 03:33:56 - INFO - __main__ -   ===================== -epoch 1 -train_step 23800 -train_loss 1.8758
+
+08/30/2019 03:35:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 23900 -train_loss 1.8754
+
+08/30/2019 03:37:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 24000 -train_loss 1.8752
+
+08/30/2019 03:40:00 - INFO - __main__ -   ===================== -epoch 1 -train_step 24100 -train_loss 1.8749
+
+08/30/2019 03:42:01 - INFO - __main__ -   ===================== -epoch 1 -train_step 24200 -train_loss 1.8747
+
+08/30/2019 03:44:03 - INFO - __main__ -   ===================== -epoch 1 -train_step 24300 -train_loss 1.8742
+
+08/30/2019 03:46:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 24400 -train_loss 1.8739
+
+08/30/2019 03:48:06 - INFO - __main__ -   ===================== -epoch 1 -train_step 24500 -train_loss 1.8737
+
+08/30/2019 03:50:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 24600 -train_loss 1.8733
+
+08/30/2019 03:52:08 - INFO - __main__ -   ===================== -epoch 1 -train_step 24700 -train_loss 1.8729
+
+08/30/2019 03:54:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 24800 -train_loss 1.8726
+
+08/30/2019 03:56:11 - INFO - __main__ -   ===================== -epoch 1 -train_step 24900 -train_loss 1.8723
+
+08/30/2019 03:58:12 - INFO - __main__ -   ===================== -epoch 1 -train_step 25000 -train_loss 1.8720
+
+08/30/2019 04:16:43 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.8720 -eval_loss 1.8466
+
+08/30/2019 04:18:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 25100 -train_loss 1.8717
+
+08/30/2019 04:20:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 25200 -train_loss 1.8714
+
+08/30/2019 04:22:47 - INFO - __main__ -   ===================== -epoch 1 -train_step 25300 -train_loss 1.8711
+
+08/30/2019 04:24:49 - INFO - __main__ -   ===================== -epoch 1 -train_step 25400 -train_loss 1.8708
+
+08/30/2019 04:26:50 - INFO - __main__ -   ===================== -epoch 1 -train_step 25500 -train_loss 1.8704
+
+08/30/2019 04:28:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 25600 -train_loss 1.8701
+
+08/30/2019 04:30:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 25700 -train_loss 1.8699
+
+08/30/2019 04:32:54 - INFO - __main__ -   ===================== -epoch 1 -train_step 25800 -train_loss 1.8697
+
+08/30/2019 04:34:56 - INFO - __main__ -   ===================== -epoch 1 -train_step 25900 -train_loss 1.8694
+
+08/30/2019 04:36:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 26000 -train_loss 1.8690
+
+08/30/2019 04:38:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 26100 -train_loss 1.8688
+
+08/30/2019 04:41:00 - INFO - __main__ -   ===================== -epoch 1 -train_step 26200 -train_loss 1.8687
+
+08/30/2019 04:43:01 - INFO - __main__ -   ===================== -epoch 1 -train_step 26300 -train_loss 1.8683
+
+08/30/2019 04:45:03 - INFO - __main__ -   ===================== -epoch 1 -train_step 26400 -train_loss 1.8681
+
+08/30/2019 04:47:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 26500 -train_loss 1.8678
+
+08/30/2019 04:49:05 - INFO - __main__ -   ===================== -epoch 1 -train_step 26600 -train_loss 1.8675
+
+08/30/2019 04:51:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 26700 -train_loss 1.8673
+
+08/30/2019 04:53:08 - INFO - __main__ -   ===================== -epoch 1 -train_step 26800 -train_loss 1.8669
+
+08/30/2019 04:55:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 26900 -train_loss 1.8666
+
+08/30/2019 04:57:11 - INFO - __main__ -   ===================== -epoch 1 -train_step 27000 -train_loss 1.8664
+
+08/30/2019 04:59:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 27100 -train_loss 1.8662
+
+08/30/2019 05:01:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 27200 -train_loss 1.8658
+
+08/30/2019 05:03:15 - INFO - __main__ -   ===================== -epoch 1 -train_step 27300 -train_loss 1.8655
+
+08/30/2019 05:05:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 27400 -train_loss 1.8651
+
+08/30/2019 05:07:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 27500 -train_loss 1.8648
+
+08/30/2019 05:09:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 27600 -train_loss 1.8644
+
+08/30/2019 05:11:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 27700 -train_loss 1.8640
+
+08/30/2019 05:13:22 - INFO - __main__ -   ===================== -epoch 1 -train_step 27800 -train_loss 1.8636
+
+08/30/2019 05:15:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 27900 -train_loss 1.8633
+
+08/30/2019 05:17:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 28000 -train_loss 1.8631
+
+08/30/2019 05:19:26 - INFO - __main__ -   ===================== -epoch 1 -train_step 28100 -train_loss 1.8627
+
+08/30/2019 05:21:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 28200 -train_loss 1.8625
+
+08/30/2019 05:23:29 - INFO - __main__ -   ===================== -epoch 1 -train_step 28300 -train_loss 1.8622
+
+08/30/2019 05:25:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 28400 -train_loss 1.8617
+
+08/30/2019 05:27:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 28500 -train_loss 1.8615
+
+08/30/2019 05:29:33 - INFO - __main__ -   ===================== -epoch 1 -train_step 28600 -train_loss 1.8611
+
+08/30/2019 05:31:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 28700 -train_loss 1.8608
+
+08/30/2019 05:33:36 - INFO - __main__ -   ===================== -epoch 1 -train_step 28800 -train_loss 1.8605
+
+08/30/2019 05:35:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 28900 -train_loss 1.8601
+
+08/30/2019 05:37:39 - INFO - __main__ -   ===================== -epoch 1 -train_step 29000 -train_loss 1.8599
+
+08/30/2019 05:39:40 - INFO - __main__ -   ===================== -epoch 1 -train_step 29100 -train_loss 1.8595
+
+08/30/2019 05:41:42 - INFO - __main__ -   ===================== -epoch 1 -train_step 29200 -train_loss 1.8592
+
+08/30/2019 05:43:43 - INFO - __main__ -   ===================== -epoch 1 -train_step 29300 -train_loss 1.8588
+
+08/30/2019 05:45:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 29400 -train_loss 1.8586
+
+08/30/2019 05:47:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 29500 -train_loss 1.8583
+
+08/30/2019 05:49:47 - INFO - __main__ -   ===================== -epoch 1 -train_step 29600 -train_loss 1.8580
+
+08/30/2019 05:51:49 - INFO - __main__ -   ===================== -epoch 1 -train_step 29700 -train_loss 1.8578
+
+08/30/2019 05:53:50 - INFO - __main__ -   ===================== -epoch 1 -train_step 29800 -train_loss 1.8576
+
+08/30/2019 05:55:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 29900 -train_loss 1.8573
+
+08/30/2019 05:57:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 30000 -train_loss 1.8569
+
+08/30/2019 06:16:24 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.8569 -eval_loss 1.8127
+
+08/30/2019 06:18:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 30100 -train_loss 1.8566
+
+08/30/2019 06:20:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 30200 -train_loss 1.8562
+
+08/30/2019 06:22:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 30300 -train_loss 1.8558
+
+08/30/2019 06:24:29 - INFO - __main__ -   ===================== -epoch 1 -train_step 30400 -train_loss 1.8556
+
+08/30/2019 06:26:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 30500 -train_loss 1.8554
+
+08/30/2019 06:28:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 30600 -train_loss 1.8550
+
+08/30/2019 06:30:34 - INFO - __main__ -   ===================== -epoch 1 -train_step 30700 -train_loss 1.8546
+
+08/30/2019 06:32:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 30800 -train_loss 1.8542
+
+08/30/2019 06:34:36 - INFO - __main__ -   ===================== -epoch 1 -train_step 30900 -train_loss 1.8540
+
+08/30/2019 06:36:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 31000 -train_loss 1.8536
+
+08/30/2019 06:38:39 - INFO - __main__ -   ===================== -epoch 1 -train_step 31100 -train_loss 1.8532
+
+08/30/2019 06:40:41 - INFO - __main__ -   ===================== -epoch 1 -train_step 31200 -train_loss 1.8529
+
+08/30/2019 06:42:42 - INFO - __main__ -   ===================== -epoch 1 -train_step 31300 -train_loss 1.8526
+
+08/30/2019 06:44:43 - INFO - __main__ -   ===================== -epoch 1 -train_step 31400 -train_loss 1.8523
+
+08/30/2019 06:46:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 31500 -train_loss 1.8519
+
+08/30/2019 06:48:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 31600 -train_loss 1.8517
+
+08/30/2019 06:50:47 - INFO - __main__ -   ===================== -epoch 1 -train_step 31700 -train_loss 1.8514
+
+08/30/2019 06:52:49 - INFO - __main__ -   ===================== -epoch 1 -train_step 31800 -train_loss 1.8512
+
+08/30/2019 06:54:50 - INFO - __main__ -   ===================== -epoch 1 -train_step 31900 -train_loss 1.8510
+
+08/30/2019 06:56:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 32000 -train_loss 1.8506
+
+08/30/2019 06:58:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 32100 -train_loss 1.8502
+
+08/30/2019 07:00:54 - INFO - __main__ -   ===================== -epoch 1 -train_step 32200 -train_loss 1.8500
+
+08/30/2019 07:02:56 - INFO - __main__ -   ===================== -epoch 1 -train_step 32300 -train_loss 1.8496
+
+08/30/2019 07:04:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 32400 -train_loss 1.8494
+
+08/30/2019 07:06:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 32500 -train_loss 1.8490
+
+08/30/2019 07:09:00 - INFO - __main__ -   ===================== -epoch 1 -train_step 32600 -train_loss 1.8486
+
+08/30/2019 07:11:02 - INFO - __main__ -   ===================== -epoch 1 -train_step 32700 -train_loss 1.8484
+
+08/30/2019 07:13:03 - INFO - __main__ -   ===================== -epoch 1 -train_step 32800 -train_loss 1.8481
+
+08/30/2019 07:15:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 32900 -train_loss 1.8477
+
+08/30/2019 07:17:06 - INFO - __main__ -   ===================== -epoch 1 -train_step 33000 -train_loss 1.8474
+
+08/30/2019 07:19:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 33100 -train_loss 1.8472
+
+08/30/2019 07:21:09 - INFO - __main__ -   ===================== -epoch 1 -train_step 33200 -train_loss 1.8469
+
+08/30/2019 07:23:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 33300 -train_loss 1.8465
+
+08/30/2019 07:25:11 - INFO - __main__ -   ===================== -epoch 1 -train_step 33400 -train_loss 1.8462
+
+08/30/2019 07:27:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 33500 -train_loss 1.8459
+
+08/30/2019 07:29:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 33600 -train_loss 1.8455
+
+08/30/2019 07:31:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 33700 -train_loss 1.8452
+
+08/30/2019 07:33:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 33800 -train_loss 1.8448
+
+08/30/2019 07:35:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 33900 -train_loss 1.8446
+
+08/30/2019 07:37:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 34000 -train_loss 1.8443
+
+08/30/2019 07:39:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 34100 -train_loss 1.8441
+
+08/30/2019 07:41:23 - INFO - __main__ -   ===================== -epoch 1 -train_step 34200 -train_loss 1.8439
+
+08/30/2019 07:43:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 34300 -train_loss 1.8435
+
+08/30/2019 07:45:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 34400 -train_loss 1.8432
+
+08/30/2019 07:47:27 - INFO - __main__ -   ===================== -epoch 1 -train_step 34500 -train_loss 1.8430
+
+08/30/2019 07:49:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 34600 -train_loss 1.8427
+
+08/30/2019 07:51:30 - INFO - __main__ -   ===================== -epoch 1 -train_step 34700 -train_loss 1.8424
+
+08/30/2019 07:53:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 34800 -train_loss 1.8421
+
+08/30/2019 07:55:33 - INFO - __main__ -   ===================== -epoch 1 -train_step 34900 -train_loss 1.8418
+
+08/30/2019 07:57:34 - INFO - __main__ -   ===================== -epoch 1 -train_step 35000 -train_loss 1.8415
+
+08/30/2019 08:16:12 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.8415 -eval_loss 1.7818
+
+08/30/2019 08:18:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 35100 -train_loss 1.8412
+
+08/30/2019 08:20:15 - INFO - __main__ -   ===================== -epoch 1 -train_step 35200 -train_loss 1.8409
+
+08/30/2019 08:22:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 35300 -train_loss 1.8407
+
+08/30/2019 08:24:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 35400 -train_loss 1.8404
+
+08/30/2019 08:26:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 35500 -train_loss 1.8402
+
+08/30/2019 08:28:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 35600 -train_loss 1.8399
+
+08/30/2019 08:30:22 - INFO - __main__ -   ===================== -epoch 1 -train_step 35700 -train_loss 1.8396
+
+08/30/2019 08:32:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 35800 -train_loss 1.8393
+
+08/30/2019 08:34:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 35900 -train_loss 1.8390
+
+08/30/2019 08:36:26 - INFO - __main__ -   ===================== -epoch 1 -train_step 36000 -train_loss 1.8388
+
+08/30/2019 08:38:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 36100 -train_loss 1.8384
+
+08/30/2019 08:40:29 - INFO - __main__ -   ===================== -epoch 1 -train_step 36200 -train_loss 1.8380
+
+08/30/2019 08:42:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 36300 -train_loss 1.8377
+
+08/30/2019 08:44:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 36400 -train_loss 1.8375
+
+08/30/2019 08:46:33 - INFO - __main__ -   ===================== -epoch 1 -train_step 36500 -train_loss 1.8372
+
+08/30/2019 08:48:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 36600 -train_loss 1.8370
+
+08/30/2019 08:50:36 - INFO - __main__ -   ===================== -epoch 1 -train_step 36700 -train_loss 1.8367
+
+08/30/2019 08:52:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 36800 -train_loss 1.8363
+
+08/30/2019 08:54:39 - INFO - __main__ -   ===================== -epoch 1 -train_step 36900 -train_loss 1.8361
+
+08/30/2019 08:56:41 - INFO - __main__ -   ===================== -epoch 1 -train_step 37000 -train_loss 1.8358
+
+08/30/2019 08:58:42 - INFO - __main__ -   ===================== -epoch 1 -train_step 37100 -train_loss 1.8354
+
+08/30/2019 09:00:43 - INFO - __main__ -   ===================== -epoch 1 -train_step 37200 -train_loss 1.8352
+
+08/30/2019 09:02:45 - INFO - __main__ -   ===================== -epoch 1 -train_step 37300 -train_loss 1.8349
+
+08/30/2019 09:04:46 - INFO - __main__ -   ===================== -epoch 1 -train_step 37400 -train_loss 1.8345
+
+08/30/2019 09:06:48 - INFO - __main__ -   ===================== -epoch 1 -train_step 37500 -train_loss 1.8344
+
+08/30/2019 09:08:49 - INFO - __main__ -   ===================== -epoch 1 -train_step 37600 -train_loss 1.8341
+
+08/30/2019 09:10:51 - INFO - __main__ -   ===================== -epoch 1 -train_step 37700 -train_loss 1.8338
+
+08/30/2019 09:12:52 - INFO - __main__ -   ===================== -epoch 1 -train_step 37800 -train_loss 1.8336
+
+08/30/2019 09:14:53 - INFO - __main__ -   ===================== -epoch 1 -train_step 37900 -train_loss 1.8333
+
+08/30/2019 09:16:55 - INFO - __main__ -   ===================== -epoch 1 -train_step 38000 -train_loss 1.8331
+
+08/30/2019 09:18:56 - INFO - __main__ -   ===================== -epoch 1 -train_step 38100 -train_loss 1.8327
+
+08/30/2019 09:20:58 - INFO - __main__ -   ===================== -epoch 1 -train_step 38200 -train_loss 1.8324
+
+08/30/2019 09:22:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 38300 -train_loss 1.8322
+
+08/30/2019 09:25:00 - INFO - __main__ -   ===================== -epoch 1 -train_step 38400 -train_loss 1.8318
+
+08/30/2019 09:27:02 - INFO - __main__ -   ===================== -epoch 1 -train_step 38500 -train_loss 1.8316
+
+08/30/2019 09:29:03 - INFO - __main__ -   ===================== -epoch 1 -train_step 38600 -train_loss 1.8313
+
+08/30/2019 09:31:05 - INFO - __main__ -   ===================== -epoch 1 -train_step 38700 -train_loss 1.8311
+
+08/30/2019 09:33:06 - INFO - __main__ -   ===================== -epoch 1 -train_step 38800 -train_loss 1.8307
+
+08/30/2019 09:35:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 38900 -train_loss 1.8305
+
+08/30/2019 09:37:09 - INFO - __main__ -   ===================== -epoch 1 -train_step 39000 -train_loss 1.8302
+
+08/30/2019 09:39:10 - INFO - __main__ -   ===================== -epoch 1 -train_step 39100 -train_loss 1.8300
+
+08/30/2019 09:41:12 - INFO - __main__ -   ===================== -epoch 1 -train_step 39200 -train_loss 1.8297
+
+08/30/2019 09:43:13 - INFO - __main__ -   ===================== -epoch 1 -train_step 39300 -train_loss 1.8294
+
+08/30/2019 09:45:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 39400 -train_loss 1.8291
+
+08/30/2019 09:47:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 39500 -train_loss 1.8288
+
+08/30/2019 09:49:17 - INFO - __main__ -   ===================== -epoch 1 -train_step 39600 -train_loss 1.8285
+
+08/30/2019 09:51:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 39700 -train_loss 1.8282
+
+08/30/2019 09:53:20 - INFO - __main__ -   ===================== -epoch 1 -train_step 39800 -train_loss 1.8279
+
+08/30/2019 09:55:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 39900 -train_loss 1.8275
+
+08/30/2019 09:57:23 - INFO - __main__ -   ===================== -epoch 1 -train_step 40000 -train_loss 1.8273
+
+08/30/2019 10:15:55 - INFO - __main__ -   ============================ -epoch 1 -train_loss 1.8273 -eval_loss 1.7490
+
+08/30/2019 10:17:57 - INFO - __main__ -   ===================== -epoch 1 -train_step 40100 -train_loss 1.8270
+
+08/30/2019 10:19:58 - INFO - __main__ -   ===================== -epoch 1 -train_step 40200 -train_loss 1.8267
+
+08/30/2019 10:21:59 - INFO - __main__ -   ===================== -epoch 1 -train_step 40300 -train_loss 1.8263
+
+08/30/2019 10:24:01 - INFO - __main__ -   ===================== -epoch 1 -train_step 40400 -train_loss 1.8260
+
+08/30/2019 10:26:02 - INFO - __main__ -   ===================== -epoch 1 -train_step 40500 -train_loss 1.8258
+
+08/30/2019 10:28:04 - INFO - __main__ -   ===================== -epoch 1 -train_step 40600 -train_loss 1.8255
+
+08/30/2019 10:30:05 - INFO - __main__ -   ===================== -epoch 1 -train_step 40700 -train_loss 1.8252
+
+08/30/2019 10:32:07 - INFO - __main__ -   ===================== -epoch 1 -train_step 40800 -train_loss 1.8248
+
+08/30/2019 10:34:08 - INFO - __main__ -   ===================== -epoch 1 -train_step 40900 -train_loss 1.8245
+
+08/30/2019 10:36:09 - INFO - __main__ -   ===================== -epoch 1 -train_step 41000 -train_loss 1.8243
+
+08/30/2019 10:38:11 - INFO - __main__ -   ===================== -epoch 1 -train_step 41100 -train_loss 1.8240
+
+08/30/2019 10:40:12 - INFO - __main__ -   ===================== -epoch 1 -train_step 41200 -train_loss 1.8237
+
+08/30/2019 10:42:14 - INFO - __main__ -   ===================== -epoch 1 -train_step 41300 -train_loss 1.8235
+
+08/30/2019 10:44:15 - INFO - __main__ -   ===================== -epoch 1 -train_step 41400 -train_loss 1.8232
+
+08/30/2019 10:46:16 - INFO - __main__ -   ===================== -epoch 1 -train_step 41500 -train_loss 1.8229
+
+08/30/2019 10:48:18 - INFO - __main__ -   ===================== -epoch 1 -train_step 41600 -train_loss 1.8226
+
+08/30/2019 10:50:19 - INFO - __main__ -   ===================== -epoch 1 -train_step 41700 -train_loss 1.8223
+
+08/30/2019 10:52:21 - INFO - __main__ -   ===================== -epoch 1 -train_step 41800 -train_loss 1.8220
+
+08/30/2019 10:54:22 - INFO - __main__ -   ===================== -epoch 1 -train_step 41900 -train_loss 1.8217
+
+08/30/2019 10:56:24 - INFO - __main__ -   ===================== -epoch 1 -train_step 42000 -train_loss 1.8215
+
+08/30/2019 10:58:25 - INFO - __main__ -   ===================== -epoch 1 -train_step 42100 -train_loss 1.8212
+
+08/30/2019 11:00:26 - INFO - __main__ -   ===================== -epoch 1 -train_step 42200 -train_loss 1.8209
+
+08/30/2019 11:02:28 - INFO - __main__ -   ===================== -epoch 1 -train_step 42300 -train_loss 1.8207
+
+08/30/2019 11:04:29 - INFO - __main__ -   ===================== -epoch 1 -train_step 42400 -train_loss 1.8204
+
+08/30/2019 11:06:31 - INFO - __main__ -   ===================== -epoch 1 -train_step 42500 -train_loss 1.8201
+
+08/30/2019 11:08:32 - INFO - __main__ -   ===================== -epoch 1 -train_step 42600 -train_loss 1.8198
+
+08/30/2019 11:10:34 - INFO - __main__ -   ===================== -epoch 1 -train_step 42700 -train_loss 1.8197
+
+08/30/2019 11:12:35 - INFO - __main__ -   ===================== -epoch 1 -train_step 42800 -train_loss 1.8194
+
+08/30/2019 11:14:37 - INFO - __main__ -   ===================== -epoch 1 -train_step 42900 -train_loss 1.8191
+
+08/30/2019 11:16:38 - INFO - __main__ -   ===================== -epoch 1 -train_step 43000 -train_loss 1.8189
+

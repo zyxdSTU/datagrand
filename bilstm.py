@@ -14,10 +14,10 @@ class BiLSTM(nn.Module):
         self.wordDictSize = config['data']['wordDictSize']
         self.embeddingSize = config['model']['embeddingSize']
         self.hiddenSize = config['model']['hiddenSize']
-
+        self.dropout = nn.Dropout(config['model']['dropout'])
         self.wordEmbeddings = nn.Embedding(self.wordDictSize, self.embeddingSize)
 
-        self.lstm = nn.LSTM(input_size=self.embeddingSize, hidden_size= self.hiddenSize // 2, batch_first=True, bidirectional=True, num_layers=4)
+        self.lstm = nn.LSTM(input_size=self.embeddingSize, hidden_size= self.hiddenSize // 2, batch_first=True, bidirectional=True, num_layers=2)
         self.fc = nn.Linear(self.hiddenSize, len(tagDict))
     
     def forward(self, batchSentence):
@@ -26,6 +26,7 @@ class BiLSTM(nn.Module):
             embeds = self.wordEmbeddings(batchSentence)
             lstmFeature,_ = self.lstm(embeds)
             tagFeature = self.fc(lstmFeature)
+            lstmFeature = self.dropout(lstmFeature)
             tagScores = F.log_softmax(tagFeature, dim=2)
         else:
             with torch.no_grad():

@@ -1,19 +1,19 @@
 data:
-  trainDataPath: './datagrand/bilstm_crf/train.bioes'
-  validDataPath: './datagrand/bilstm_crf/test.bioes'
+  trainDataPath: './datagrand/train.bioes'
+  validDataPath: './datagrand/test.bioes'
   submitDataPath: './datagrand/submit.change'
   wordDictSize: 25000
 model:
-  embeddingSize: 50
-  hiddenSize: 50
+  embeddingSize: 128
+  hiddenSize: 128
   batchSize: 50
-  epochNum: 500
+  epochNum: 100
   earlyStop: 10
-  learningRate: 0.001
+  learningRate: 0.005
   encoderNumber: 6 #encoder层数
   feedforwardSize: 256 #前馈神经网络维度
   headNumber: 4 #多头注意力机制的数量
-  dropout: 0.1 
+  dropout: 0.5 
   bilstm:
     modelSavePath: './datagrand/bilstm/bilstm_model.pkl'
     submitPrePath: './datagrand/bilstm/submit_bilstm.reslut'

@@ -123,7 +123,7 @@ def main(config):
     submitPre = open(submitPrePath, 'w', encoding='utf-8', errors='ignore')
     for tag, sentence in zip(preTags, sentences):
         for element1, element2 in zip(sentence, tag):
-            submitPre.write(int2word(element1) + '\t' + element2 + '\n')
+            submitPre.write(int2word[element1] + '\t' + element2 + '\n')
         submitPre.write('\n')
     submitPre.close()
     generateSubmit(submitPrePath=submitPrePath, submitResultPath=submitResultPath)

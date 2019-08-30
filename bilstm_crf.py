@@ -30,12 +30,14 @@ class BiLSTM_CRF(nn.Module):
         self.embeddingSize = config['model']['embeddingSize']
         self.hiddenSize = config['model']['hiddenSize']
         self.DEVICE = config['DEVICE']
+        self.dropout = config['model']['dropout']
 
         self.wordEmbeddings = nn.Embedding(self.wordDictSize, self.embeddingSize)
 
         self.tagDict = tagDict.copy();  self.tagDict.extend(['<START>', '<STOP>'])
 
-        self.lstm = nn.LSTM(input_size=self.embeddingSize, hidden_size= self.hiddenSize // 2, batch_first=True, bidirectional=True, num_layers=2)
+        self.lstm = nn.LSTM(input_size=self.embeddingSize, hidden_size= self.hiddenSize // 2, batch_first=True, 
+        bidirectional=True, num_layers=2, dropout=self.dropout)
 
         self.fc = nn.Linear(self.hiddenSize, len(self.tagDict))
 
@@ -84,11 +86,9 @@ def bilstmCRFEval(net, iterData, criterion, DEVICE):
         batchSentence = batchSentence.to(DEVICE)
         batchTag = batchTag.to(DEVICE)
         
-        loss = torch.mean(net(batchSentence, batchTag))
+        loss = net(batchSentence, batchTag)
         tagPre  = net.decode(batchSentence)
 
-        tagPre = [element for element in tagPre]
-        #print (tagPre)
         tagTrue = [element[:length] for element, length in zip(batchTag.cpu().numpy(), lenList)]
         sentence = [element[:length] for element, length in zip(batchSentence.cpu().numpy(), lenList)]
         yTrue.extend(tagTrue); yPre.extend(tagPre); ySentence.extend(sentence)

@@ -2,17 +2,14 @@ from torch.utils import data
 import torch
 from util import acquireWordDict
 
-# tagDict = ['O', 'B-NAME', 'M-NAME', 'E-NAME', 'B-CONT', 'M-CONT', 'E-CONT', 'B-EDU',  
-#     'M-EDU', 'E-EDU', 'B-TITLE', 'M-TITLE', 'E-TITLE', 'B-ORG', 'M-ORG', 'E-ORG', 
-#         'B-RACE', 'E-RACE', 'B-PRO', 'M-PRO', 'E-PRO', 'B-LOC', 'M-LOC', 'E-LOC',
-#          'S-RACE', 'S-NAME', 'M-RACE', 'S-ORG', 'S-CONT', 'S-EDU','S-TITLE', 'S-PRO', 'S-LOC']
-
 tagDict = ['<PAD>', 'O', 'B-a', 'I-a', 'E-a', 'S-a', 'B-b', 'I-b', 'E-b', 'S-b', 'B-c', 'I-c', 'E-c', 'S-c']
-
 int2tag = {index:element for index, element in enumerate(tagDict)}
 tag2int = {element:index for index, element in enumerate(tagDict)}
 
-wordDict = acquireWordDict(['./datagrand/bilstm_crf/train.bioes', './datagrand/bilstm_crf/test.bioes'])
+
+wordDict = []
+acquireWordDict(['./datagrand/train.bioes', './datagrand/test.bioes'], wordDict)
+acquireWordDict(['./datagrand/submit.change'], wordDict, method='O')
 wordDict.insert(0, '<PAD>')
 word2int = {word:index for index, word in enumerate(wordDict)}
 int2word = {index:word for index, word in enumerate(wordDict)}

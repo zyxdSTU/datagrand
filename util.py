@@ -199,13 +199,13 @@ def generateSubmit(submitPrePath, submitResultPath):
     f.close()
 
 #获取词典
-def acquireWordDict(inputPathArr):
-    wordDict = []
+def acquireWordDict(inputPathArr, wordDict, method='T'):
     for inputPath in inputPathArr:
         input = open(inputPath, 'r', encoding='utf-8', errors='ignore')
         for line in input.readlines():
-            word = line.split('\t')[0]
+            if method == 'T':
+                word = line.split('\t')[0]
+            else: word = line.strip()
             if word not in wordDict:
                 wordDict.append(word)
         input.close()
-    return wordDict
